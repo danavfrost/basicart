@@ -34,6 +34,16 @@ There are two Android APKs:
 
 Both require Android 8.0 or newer. The iOS app requires iOS 16 or newer.
 
+### GitHub APKs vs. the Play Store: read this before installing
+
+The APKs on GitHub and the Google Play version are **signed with different keys**, so Android treats them as different installs of the same app:
+
+- **You can't update one with the other.** If you installed an APK from GitHub and later want the Play Store version (or the other way round), Android will refuse to install it over the top. You have to **uninstall the old one first**.
+- **Current GitHub APKs are preview builds signed with a development key.** A later GitHub release signed with the permanent release key also won't install over them. Uninstall the preview first.
+- **Uninstalling deletes your projects.** Basic Art keeps projects only inside the app, so removing it removes them. Exported images in your Pictures folder are not affected.
+- **Save your projects before you uninstall.** On the home screen, tap a project's **⋮ → Export project file** and save the `.zip` somewhere safe, such as Downloads. After installing the new version, tap **Import** and pick that file. Your layers, text and selections come back exactly as they were.
+- The Play Store version updates itself automatically. GitHub APKs never update automatically; check the [Releases](https://github.com/danavfrost/basicart/releases) page for new ones.
+
 ## Features
 
 **Text tool (the headline feature)**
@@ -103,7 +113,7 @@ This writes:
 - `BasicArt.apk` (64-bit) and `BasicArt-32bit.apk` (32-bit) to the repository root
 - the AAB to `android/app/build/outputs/bundle/release/app-release.aab`
 
-Release builds are debug-signed until a store signing key is configured, so they install fine for testing.
+Release builds are signed with the Android debug key until a release signing key is configured. They install fine, but see [GitHub APKs vs. the Play Store](#github-apks-vs-the-play-store-read-this-before-installing) about updating.
 
 Run the unit tests (including the shared cross-platform fixtures):
 
