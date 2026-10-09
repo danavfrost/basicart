@@ -1,0 +1,5 @@
+# Baseline profile (hand-written): app code used at startup, on the home screen and when opening
+# the editor is AOT-compiled at install. Compose and other AndroidX libraries ship their own
+# profiles, which AGP merges with this one.
+HSPLcom/halworks/basicart/**;->**(**)**
+Lcom/halworks/basicart/**;

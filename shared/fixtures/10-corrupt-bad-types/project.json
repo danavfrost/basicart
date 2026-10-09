@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "id": "10-corrupt-bad-types",
+  "name": "Bad types",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": "1080",
+    "height": 1080,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "t1",
+      "type": "text",
+      "name": "Text",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "text": "hi",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 64,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#000000FF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": []
+    }
+  ]
+}

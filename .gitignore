@@ -1,0 +1,51 @@
+# ---------- General ----------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*.log
+.idea/
+.vscode/
+*.iml
+
+# Local helper scripts and scratch output (never published)
+/resume-claude.sh
+/scratch/
+/qa*/
+bugreport*.zip
+
+# Full-resolution store screenshots (kept locally, not in the public repo)
+/store-assets/
+
+# Built apps ship via GitHub Releases, not git history
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+
+# Signing material: never commit
+*.keystore
+*.jks
+keystore.properties
+*.p12
+*.mobileprovision
+*.cer
+
+# ---------- Android ----------
+android/.gradle/
+android/.kotlin/
+android/build/
+android/**/build/
+android/local.properties
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+*.hprof
+
+# ---------- iOS ----------
+ios/build/
+ios/DerivedData/
+ios/**/xcuserdata/
+ios/**/*.xcuserstate
+*.xcresult
+ios/.swiftpm/

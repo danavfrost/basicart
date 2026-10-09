@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 6–11 auto backup: the user's projects and settings (incl. My colors).
+     Caches, editing proxies and exports in cache/ are never backed up; thumbnails are
+     regenerated on load if missing. -->
+<full-backup-content>
+    <include domain="file" path="projects/" />
+    <include domain="sharedpref" path="settings.xml" />
+</full-backup-content>

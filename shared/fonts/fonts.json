@@ -1,0 +1,6820 @@
+{
+ "formatVersion": 1,
+ "groups": [
+  {
+   "id": "clean-sans",
+   "name": "Clean Sans",
+   "sampleFontId": "inter"
+  },
+  {
+   "id": "geometric-sans",
+   "name": "Geometric Sans",
+   "sampleFontId": "montserrat"
+  },
+  {
+   "id": "rounded-sans",
+   "name": "Rounded Sans",
+   "sampleFontId": "fredoka"
+  },
+  {
+   "id": "condensed-sans",
+   "name": "Condensed Sans",
+   "sampleFontId": "oswald"
+  },
+  {
+   "id": "book-serif",
+   "name": "Book Serif",
+   "sampleFontId": "lora"
+  },
+  {
+   "id": "display-serif",
+   "name": "Display Serif",
+   "sampleFontId": "playfair-display"
+  },
+  {
+   "id": "slab-serif",
+   "name": "Slab Serif",
+   "sampleFontId": "arvo"
+  },
+  {
+   "id": "meme-impact",
+   "name": "Meme & Impact",
+   "sampleFontId": "anton"
+  },
+  {
+   "id": "heavy-display",
+   "name": "Heavy Display",
+   "sampleFontId": "titan-one"
+  },
+  {
+   "id": "handwriting",
+   "name": "Handwriting",
+   "sampleFontId": "caveat"
+  },
+  {
+   "id": "script-calligraphy",
+   "name": "Script & Calligraphy",
+   "sampleFontId": "great-vibes"
+  },
+  {
+   "id": "marker-brush",
+   "name": "Marker & Brush",
+   "sampleFontId": "permanent-marker"
+  },
+  {
+   "id": "mono-typewriter",
+   "name": "Mono & Typewriter",
+   "sampleFontId": "special-elite"
+  },
+  {
+   "id": "retro-pixel",
+   "name": "Retro & Pixel",
+   "sampleFontId": "press-start-2p"
+  },
+  {
+   "id": "comic-fun",
+   "name": "Comic & Fun",
+   "sampleFontId": "bangers"
+  },
+  {
+   "id": "stencil-military",
+   "name": "Stencil & Military",
+   "sampleFontId": "black-ops-one"
+  },
+  {
+   "id": "decorative",
+   "name": "Decorative",
+   "sampleFontId": "monoton"
+  }
+ ],
+ "fonts": [
+  {
+   "id": "inter",
+   "family": "Inter",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "inter/inter-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "inter/inter-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "inter/inter-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "inter/inter-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "inter/inter-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "inter/inter-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "inter/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)",
+   "author": "Rasmus Andersson"
+  },
+  {
+   "id": "roboto",
+   "family": "Roboto",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "roboto/roboto-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "roboto/roboto-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "roboto/roboto-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "roboto/roboto-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "roboto/roboto-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "roboto/roboto-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "roboto/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+   "author": "Christian Robertson"
+  },
+  {
+   "id": "open-sans",
+   "family": "Open Sans",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "open-sans/open-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "open-sans/open-sans-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "open-sans/open-sans-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "open-sans/open-sans-variable.ttf",
+     "weight": 800,
+     "italic": false,
+     "styleName": "ExtraBold"
+    },
+    {
+     "path": "open-sans/open-sans-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "open-sans/open-sans-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "open-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Open Sans Project Authors (https://github.com/googlefonts/opensans)",
+   "author": "Monotype Design Team"
+  },
+  {
+   "id": "source-sans-3",
+   "family": "Source Sans 3",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "source-sans-3/source-sans-3-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "source-sans-3/source-sans-3-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "source-sans-3/source-sans-3-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "source-sans-3/source-sans-3-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "source-sans-3/source-sans-3-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "source-sans-3/source-sans-3-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "source-sans-3/OFL.txt"
+   },
+   "copyright": "Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries.",
+   "author": "Paul D. Hunt"
+  },
+  {
+   "id": "ibm-plex-sans",
+   "family": "IBM Plex Sans",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "ibm-plex-sans/ibm-plex-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "ibm-plex-sans/ibm-plex-sans-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "ibm-plex-sans/ibm-plex-sans-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "ibm-plex-sans/ibm-plex-sans-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "ibm-plex-sans/ibm-plex-sans-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "ibm-plex-sans/OFL.txt"
+   },
+   "copyright": "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"",
+   "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen"
+  },
+  {
+   "id": "work-sans",
+   "family": "Work Sans",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "work-sans/work-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "work-sans/work-sans-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "work-sans/work-sans-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "work-sans/work-sans-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "work-sans/work-sans-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "work-sans/work-sans-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "work-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans)",
+   "author": "Wei Huang"
+  },
+  {
+   "id": "mulish",
+   "family": "Mulish",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "mulish/mulish-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "mulish/mulish-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "mulish/mulish-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "mulish/mulish-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "mulish/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Mulish Project Authors (https://github.com/googlefonts/mulish)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "karla",
+   "family": "Karla",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "karla/karla-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "karla/karla-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "karla/karla-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "karla/karla-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "karla/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Karla Project Authors (https://github.com/googlefonts/karla)",
+   "author": "Jonathan Pinhorn"
+  },
+  {
+   "id": "manrope",
+   "family": "Manrope",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "manrope/manrope-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "manrope/manrope-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "manrope/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Manrope Project Authors (https://github.com/googlefonts/manrope)",
+   "author": "Mikhail Sharanda"
+  },
+  {
+   "id": "public-sans",
+   "family": "Public Sans",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "public-sans/public-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "public-sans/public-sans-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "public-sans/public-sans-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "public-sans/public-sans-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "public-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Public Sans Project Authors (https://github.com/uswds/public-sans)",
+   "author": "The Public Sans project authors (U.S. Web Design System). Libre Franklin designed by Pablo Impallari and Rodrigo Fuenzalida."
+  },
+  {
+   "id": "libre-franklin",
+   "family": "Libre Franklin",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "libre-franklin/libre-franklin-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "libre-franklin/libre-franklin-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "libre-franklin/libre-franklin-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "libre-franklin/libre-franklin-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "libre-franklin/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Libre Franklin Project Authors (https://github.com/googlefonts/Libre-Franklin)",
+   "author": "Pablo Impallari, Rodrigo Fuenzalida, Nhung Nguyen"
+  },
+  {
+   "id": "cabin",
+   "family": "Cabin",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "cabin/cabin-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "cabin/cabin-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "cabin/cabin-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "cabin/cabin-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cabin/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin.git)",
+   "author": "Pablo Impallari"
+  },
+  {
+   "id": "figtree",
+   "family": "Figtree",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "figtree/figtree-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "figtree/figtree-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "figtree/figtree-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "figtree/figtree-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "figtree/OFL.txt"
+   },
+   "copyright": "Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree)",
+   "author": "Erik Kennedy"
+  },
+  {
+   "id": "plus-jakarta-sans",
+   "family": "Plus Jakarta Sans",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "plus-jakarta-sans/plus-jakarta-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "plus-jakarta-sans/plus-jakarta-sans-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "plus-jakarta-sans/plus-jakarta-sans-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "plus-jakarta-sans/plus-jakarta-sans-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "plus-jakarta-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)",
+   "author": "Gumpita Rahayu"
+  },
+  {
+   "id": "red-hat-text",
+   "family": "Red Hat Text",
+   "category": "sans",
+   "group": "clean-sans",
+   "files": [
+    {
+     "path": "red-hat-text/red-hat-text-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "red-hat-text/red-hat-text-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "red-hat-text/red-hat-text-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "red-hat-text/red-hat-text-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "red-hat-text/OFL.txt"
+   },
+   "copyright": "Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)",
+   "author": "Pentagram, MCKL"
+  },
+  {
+   "id": "montserrat",
+   "family": "Montserrat",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "montserrat/montserrat-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "montserrat/montserrat-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "montserrat/montserrat-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "montserrat/montserrat-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "montserrat/montserrat-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "montserrat/montserrat-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "montserrat/OFL.txt"
+   },
+   "copyright": "Copyright 2024 The Montserrat.Git Project Authors (https://github.com/JulietaUla/Montserrat.git)",
+   "author": "Julieta Ulanovsky"
+  },
+  {
+   "id": "poppins",
+   "family": "Poppins",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "poppins/poppins-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "poppins/poppins-light.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "poppins/poppins-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "poppins/poppins-black.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "poppins/poppins-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "poppins/poppins-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "poppins/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)",
+   "author": "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
+  },
+  {
+   "id": "raleway",
+   "family": "Raleway",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "raleway/raleway-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "raleway/raleway-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "raleway/raleway-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "raleway/raleway-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "raleway/raleway-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "raleway/raleway-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "raleway/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name \"Raleway\".",
+   "author": "Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida"
+  },
+  {
+   "id": "josefin-sans",
+   "family": "Josefin Sans",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "josefin-sans/josefin-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "josefin-sans/josefin-sans-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "josefin-sans/josefin-sans-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "josefin-sans/josefin-sans-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "josefin-sans/josefin-sans-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "josefin-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Josefin Sans Project Authors (https://github.com/ThomasJockin/JosefinSansFont-master), with Reserved Font Name \"Josefin Sans\".",
+   "author": "Santiago Orozco"
+  },
+  {
+   "id": "dm-sans",
+   "family": "DM Sans",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "dm-sans/dm-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "dm-sans/dm-sans-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "dm-sans/dm-sans-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "dm-sans/dm-sans-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "dm-sans/dm-sans-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "dm-sans/dm-sans-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "dm-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)",
+   "author": "Colophon Foundry, Jonny Pinhorn"
+  },
+  {
+   "id": "outfit",
+   "family": "Outfit",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "outfit/outfit-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "outfit/outfit-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "outfit/OFL.txt"
+   },
+   "copyright": "Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)",
+   "author": "Rodrigo Fuenzalida"
+  },
+  {
+   "id": "lexend",
+   "family": "Lexend",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "lexend/lexend-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "lexend/lexend-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "lexend/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Lexend Project Authors (https://github.com/googlefonts/lexend), with Reserved Font Name “RevReading Lexend”.",
+   "author": "Bonnie Shaver-Troup, Thomas Jockin"
+  },
+  {
+   "id": "jost",
+   "family": "Jost",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "jost/jost-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "jost/jost-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "jost/jost-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "jost/jost-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "jost/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type)",
+   "author": "Owen Earl (indestructible type*)"
+  },
+  {
+   "id": "league-spartan",
+   "family": "League Spartan",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "league-spartan/league-spartan-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "league-spartan/league-spartan-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "league-spartan/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The League Spartan Project Authors (https://github.com/theleagueof/league-spartan)",
+   "author": "The League of Moveable Type"
+  },
+  {
+   "id": "questrial",
+   "family": "Questrial",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "questrial/questrial-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "questrial/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Questrial Project Authors (https://github.com/googlefonts/questrial)",
+   "author": "Joe Prince, Laura Meseguer"
+  },
+  {
+   "id": "sora",
+   "family": "Sora",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "sora/sora-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "sora/sora-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sora/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)",
+   "author": "Jonathan Barnbrook, Julián Moncada"
+  },
+  {
+   "id": "space-grotesk",
+   "family": "Space Grotesk",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "space-grotesk/space-grotesk-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "space-grotesk/space-grotesk-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "space-grotesk/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)",
+   "author": "Florian Karsten"
+  },
+  {
+   "id": "syne",
+   "family": "Syne",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "syne/syne-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "syne/syne-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "syne/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The Syne Project Authors (https://gitlab.com/bonjour-monde/fonderie/syne-typeface)",
+   "author": "Lucas Descroix"
+  },
+  {
+   "id": "red-hat-display",
+   "family": "Red Hat Display",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "red-hat-display/red-hat-display-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "red-hat-display/red-hat-display-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "red-hat-display/OFL.txt"
+   },
+   "copyright": "Copyright 2024 The Red Hat Project Authors (https://github.com/RedHatOfficial/RedHatFont)",
+   "author": "Pentagram, MCKL"
+  },
+  {
+   "id": "tenor-sans",
+   "family": "Tenor Sans",
+   "category": "sans",
+   "group": "geometric-sans",
+   "files": [
+    {
+     "path": "tenor-sans/tenor-sans-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "tenor-sans/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, with Reserved Font Name \"Tenor\", \"Tenor Sans\".",
+   "author": "Denis Masharov"
+  },
+  {
+   "id": "nunito",
+   "family": "Nunito",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "nunito/nunito-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "nunito/nunito-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "nunito/nunito-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "nunito/nunito-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "nunito/nunito-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "nunito/nunito-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "nunito/OFL.txt"
+   },
+   "copyright": "Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "quicksand",
+   "family": "Quicksand",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "quicksand/quicksand-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "quicksand/quicksand-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "quicksand/quicksand-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "quicksand/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Quicksand Project Authors (https://github.com/andrew-paglinawan/QuicksandFamily), with Reserved Font Name “Quicksand”.",
+   "author": "Andrew Paglinawan"
+  },
+  {
+   "id": "varela-round",
+   "family": "Varela Round",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "varela-round/varela-round-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "varela-round/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Varela Round Project Authors (https://github.com/alefalefalef/Varela-Round-Hebrew/), with Reserved Font Names 'Varela' and ‘Varela Round’.",
+   "author": "Joe Prince, Avraham Cornfeld"
+  },
+  {
+   "id": "comfortaa",
+   "family": "Comfortaa",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "comfortaa/comfortaa-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "comfortaa/comfortaa-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "comfortaa/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Comfortaa Project Authors (https://github.com/alexeiva/comfortaa), with Reserved Font Name \"Comfortaa\".",
+   "author": "Johan Aakerlund"
+  },
+  {
+   "id": "fredoka",
+   "family": "Fredoka",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "fredoka/fredoka-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "fredoka/fredoka-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "fredoka/fredoka-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "fredoka/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Fredoka Project Authors (https://github.com/hafontia/Fredoka-One)",
+   "author": "Ben Nathan"
+  },
+  {
+   "id": "dosis",
+   "family": "Dosis",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "dosis/dosis-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "dosis/dosis-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "dosis/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Dosis Project Authors (https://github.com/googlefonts/dosis-vf)",
+   "author": "EdgarTolentino, PabloImpallari, IginoMarini"
+  },
+  {
+   "id": "rubik",
+   "family": "Rubik",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "rubik/rubik-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "rubik/rubik-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "rubik/rubik-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "rubik/rubik-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "rubik/rubik-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "rubik/rubik-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "rubik/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Rubik Project Authors (https://github.com/googlefonts/rubik)",
+   "author": "Hubert and Fischer"
+  },
+  {
+   "id": "baloo-2",
+   "family": "Baloo 2",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "baloo-2/baloo-2-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "baloo-2/baloo-2-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "baloo-2/OFL.txt"
+   },
+   "copyright": "﻿Copyright 2019 The Baloo 2 Project Authors (https://github.com/EkType/Baloo2)",
+   "author": "Sarang Kulkarni and Ek Type"
+  },
+  {
+   "id": "signika",
+   "family": "Signika",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "signika/signika-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "signika/signika-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "signika/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Signika Project Authors (https://github.com/googlefonts/Signika).",
+   "author": "Anna Giedryś"
+  },
+  {
+   "id": "itim",
+   "family": "Itim",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "itim/itim-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "itim/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2015, Cadson Demak (info@cadsondemak.com), Copyright (c) 2014, Pablo Impallari (www.impallari.com|impallari@gmail.com)",
+   "author": "Suppakit Chalermlarp"
+  },
+  {
+   "id": "maven-pro",
+   "family": "Maven Pro",
+   "category": "sans",
+   "group": "rounded-sans",
+   "files": [
+    {
+     "path": "maven-pro/maven-pro-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "maven-pro/maven-pro-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "maven-pro/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Maven Pro Project Authors (https://github.com/m4rc1e/mavenproFont), with Reserved Font Name \"Maven Pro\".",
+   "author": "Joe Prince"
+  },
+  {
+   "id": "oswald",
+   "family": "Oswald",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "oswald/oswald-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "oswald/oswald-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "oswald/oswald-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "oswald/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "barlow-condensed",
+   "family": "Barlow Condensed",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "barlow-condensed/barlow-condensed-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "barlow-condensed/barlow-condensed-light.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "barlow-condensed/barlow-condensed-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "barlow-condensed/barlow-condensed-black.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "barlow-condensed/barlow-condensed-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "barlow-condensed/barlow-condensed-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "barlow-condensed/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow)",
+   "author": "Jeremy Tribby"
+  },
+  {
+   "id": "roboto-condensed",
+   "family": "Roboto Condensed",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "roboto-condensed/roboto-condensed-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "roboto-condensed/roboto-condensed-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "roboto-condensed/roboto-condensed-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "roboto-condensed/roboto-condensed-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "roboto-condensed/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)",
+   "author": "Christian Robertson"
+  },
+  {
+   "id": "fjalla-one",
+   "family": "Fjalla One",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "fjalla-one/fjalla-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "fjalla-one/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Fjalla One Project Authors (https://github.com/SorkinType/FjallaOne)",
+   "author": "Irina Smirnova, Eben Sorkin"
+  },
+  {
+   "id": "pathway-gothic-one",
+   "family": "Pathway Gothic One",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "pathway-gothic-one/pathway-gothic-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "pathway-gothic-one/OFL.txt"
+   },
+   "copyright": "Copyright 2013 The Pathway Gothic Project Authors (https://github.com/etunni/pathway-gothic), with Reserved Font Name 'Pathway'",
+   "author": "Eduardo Rodriguez Tunni"
+  },
+  {
+   "id": "archivo-narrow",
+   "family": "Archivo Narrow",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "archivo-narrow/archivo-narrow-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "archivo-narrow/archivo-narrow-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "archivo-narrow/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Archivo Narrow Project Authors (https://github.com/Omnibus-Type/ArchivoNarrow)",
+   "author": "Hector Gatti"
+  },
+  {
+   "id": "saira-condensed",
+   "family": "Saira Condensed",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "saira-condensed/saira-condensed-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "saira-condensed/saira-condensed-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "saira-condensed/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Saira Project Authors (omnibus.type@gmail.com), with reserved font name \"Saira\".",
+   "author": "Hector Gatti with collaboration of the Omnibus-Type team"
+  },
+  {
+   "id": "yanone-kaffeesatz",
+   "family": "Yanone Kaffeesatz",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "yanone-kaffeesatz/yanone-kaffeesatz-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "yanone-kaffeesatz/yanone-kaffeesatz-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "yanone-kaffeesatz/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Yanone Kaffeesatz Project Authors (https://github.com/yanone/kaffeesatz)",
+   "author": "Yanone (Cyrillic: Daniel Pouzeot, Huerta Tipografica, and Cyreal)"
+  },
+  {
+   "id": "antonio",
+   "family": "Antonio",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "antonio/antonio-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "antonio/antonio-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "antonio/OFL.txt"
+   },
+   "copyright": "Copyright 2013 The Antonio Project Authors (https://github.com/googlefonts/antonioFont)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "teko",
+   "family": "Teko",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "teko/teko-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "teko/teko-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "teko/teko-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "teko/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Teko Project Authors (https://www.github.com/googlefonts/teko)",
+   "author": "Manushi Parikh, Jonny Pinhorn"
+  },
+  {
+   "id": "big-shoulders-display",
+   "family": "Big Shoulders Display",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "big-shoulders-display/big-shoulders-display-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "big-shoulders-display/big-shoulders-display-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "big-shoulders-display/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)",
+   "author": "Patric King"
+  },
+  {
+   "id": "sofia-sans-condensed",
+   "family": "Sofia Sans Condensed",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "sofia-sans-condensed/sofia-sans-condensed-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "sofia-sans-condensed/sofia-sans-condensed-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sofia-sans-condensed/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)",
+   "author": "Botio Nikoltchev, Ani Petrova"
+  },
+  {
+   "id": "encode-sans-condensed",
+   "family": "Encode Sans Condensed",
+   "category": "sans",
+   "group": "condensed-sans",
+   "files": [
+    {
+     "path": "encode-sans-condensed/encode-sans-condensed-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "encode-sans-condensed/encode-sans-condensed-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "encode-sans-condensed/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name \"Encode Sans”.",
+   "author": "Multiple Designers"
+  },
+  {
+   "id": "lora",
+   "family": "Lora",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "lora/lora-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "lora/lora-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "lora/lora-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "lora/lora-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "lora/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\".",
+   "author": "Olga Karpushina, Alexei Vanyashin (Cyrillic)"
+  },
+  {
+   "id": "libre-baskerville",
+   "family": "Libre Baskerville",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "libre-baskerville/libre-baskerville-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "libre-baskerville/libre-baskerville-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "libre-baskerville/libre-baskerville-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "libre-baskerville/libre-baskerville-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "libre-baskerville/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Libre Baskerville Project Authors (https://github.com/impallari/Libre-Baskerville) with Reserved Font Name Libre Baskerville.",
+   "author": "Pablo Impallari, Rodrigo Fuenzalida"
+  },
+  {
+   "id": "eb-garamond",
+   "family": "EB Garamond",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "eb-garamond/eb-garamond-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "eb-garamond/eb-garamond-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "eb-garamond/eb-garamond-variable.ttf",
+     "weight": 800,
+     "italic": false,
+     "styleName": "ExtraBold"
+    },
+    {
+     "path": "eb-garamond/eb-garamond-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "eb-garamond/eb-garamond-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "eb-garamond/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12)",
+   "author": "Georg Duffner and Octavio Pardo"
+  },
+  {
+   "id": "crimson-text",
+   "family": "Crimson Text",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "crimson-text/crimson-text-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "crimson-text/crimson-text-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "crimson-text/crimson-text-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "crimson-text/crimson-text-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "crimson-text/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)",
+   "author": "Sebastian Kosch"
+  },
+  {
+   "id": "crimson-pro",
+   "family": "Crimson Pro",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "crimson-pro/crimson-pro-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "crimson-pro/crimson-pro-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "crimson-pro/crimson-pro-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "crimson-pro/crimson-pro-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "crimson-pro/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Crimson Pro Project Authors (https://github.com/Fonthausen/CrimsonPro)",
+   "author": "Jacques Le Bailly"
+  },
+  {
+   "id": "pt-serif",
+   "family": "PT Serif",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "pt-serif/pt-serif-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "pt-serif/pt-serif-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "pt-serif/pt-serif-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "pt-serif/pt-serif-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "pt-serif/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public), with Reserved Font Names \"PT Sans\", \"PT Serif\" and \"ParaType\".",
+   "author": "A.Korolkova, O.Umpeleva, V.Yefimov"
+  },
+  {
+   "id": "source-serif-4",
+   "family": "Source Serif 4",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "source-serif-4/source-serif-4-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "source-serif-4/source-serif-4-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "source-serif-4/source-serif-4-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "source-serif-4/source-serif-4-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "source-serif-4/source-serif-4-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "source-serif-4/source-serif-4-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "source-serif-4/OFL.txt"
+   },
+   "copyright": "Copyright 2014 The Source Serif 4 Project Authors (https://github.com/adobe-fonts/source-serif)",
+   "author": "Frank Grießhammer"
+  },
+  {
+   "id": "libre-caslon-text",
+   "family": "Libre Caslon Text",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "libre-caslon-text/libre-caslon-text-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "libre-caslon-text/libre-caslon-text-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "libre-caslon-text/libre-caslon-text-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "libre-caslon-text/libre-caslon-text-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "libre-caslon-text/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)",
+   "author": "Pablo Impallari, Rodrigo Fuenzalida, Katja Schimmel"
+  },
+  {
+   "id": "cormorant-garamond",
+   "family": "Cormorant Garamond",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "cormorant-garamond/cormorant-garamond-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "cormorant-garamond/cormorant-garamond-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "cormorant-garamond/cormorant-garamond-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "cormorant-garamond/cormorant-garamond-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "cormorant-garamond/cormorant-garamond-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cormorant-garamond/OFL.txt"
+   },
+   "copyright": "Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)",
+   "author": "Christian Thalmann (Catharsis Fonts)"
+  },
+  {
+   "id": "spectral",
+   "family": "Spectral",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "spectral/spectral-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "spectral/spectral-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "spectral/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The Spectral Project Authors (https://github.com/productiontype/Spectral)",
+   "author": "Jean-Baptiste Levee"
+  },
+  {
+   "id": "gelasio",
+   "family": "Gelasio",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "gelasio/gelasio-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "gelasio/gelasio-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "gelasio/gelasio-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "gelasio/gelasio-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "gelasio/OFL.txt"
+   },
+   "copyright": "Copyright 2022 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)",
+   "author": "Eben Sorkin"
+  },
+  {
+   "id": "ibm-plex-serif",
+   "family": "IBM Plex Serif",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "ibm-plex-serif/ibm-plex-serif-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "ibm-plex-serif/ibm-plex-serif-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "ibm-plex-serif/ibm-plex-serif-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "ibm-plex-serif/ibm-plex-serif-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "ibm-plex-serif/OFL.txt"
+   },
+   "copyright": "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"",
+   "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen"
+  },
+  {
+   "id": "domine",
+   "family": "Domine",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "domine/domine-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "domine/domine-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "domine/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Domine Project Authors (https://github.com/googlefonts/domine) Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name Domine.",
+   "author": "Pablo Impallari, Rodrigo Fuenzalida, Brenda Gallo"
+  },
+  {
+   "id": "frank-ruhl-libre",
+   "family": "Frank Ruhl Libre",
+   "category": "serif",
+   "group": "book-serif",
+   "files": [
+    {
+     "path": "frank-ruhl-libre/frank-ruhl-libre-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "frank-ruhl-libre/frank-ruhl-libre-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "frank-ruhl-libre/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Frank Ruhl Libre Project Authors (https://github.com/fontef/frankruhllibre)",
+   "author": "Yanek Iontef"
+  },
+  {
+   "id": "playfair-display",
+   "family": "Playfair Display",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "playfair-display/playfair-display-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "playfair-display/playfair-display-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "playfair-display/playfair-display-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "playfair-display/playfair-display-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "playfair-display/playfair-display-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "playfair-display/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"",
+   "author": "Claus Eggers Sørensen"
+  },
+  {
+   "id": "abril-fatface",
+   "family": "Abril Fatface",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "abril-fatface/abril-fatface-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "abril-fatface/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names \"Abril\" and \"Abril Fatface\"",
+   "author": "Veronika Burian, Jos Scaglione"
+  },
+  {
+   "id": "dm-serif-display",
+   "family": "DM Serif Display",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "dm-serif-display/dm-serif-display-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "dm-serif-display/OFL.txt"
+   },
+   "copyright": "Copyright 2014-2018 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries. Copyright 2019 Google LLC.",
+   "author": "Colophon Foundry, Frank Grießhammer"
+  },
+  {
+   "id": "yeseva-one",
+   "family": "Yeseva One",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "yeseva-one/yeseva-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "yeseva-one/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Yeseva One Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Yeseva\".",
+   "author": "Jovanny Lemonad"
+  },
+  {
+   "id": "cinzel",
+   "family": "Cinzel",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "cinzel/cinzel-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "cinzel/cinzel-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cinzel/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Cinzel Project Authors (https://github.com/NDISCOVER/Cinzel)",
+   "author": "Natanael Gama"
+  },
+  {
+   "id": "bodoni-moda",
+   "family": "Bodoni Moda",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "bodoni-moda/bodoni-moda-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "bodoni-moda/bodoni-moda-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "bodoni-moda/bodoni-moda-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "bodoni-moda/bodoni-moda-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bodoni-moda/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Bodoni Moda Project Authors (https://github.com/indestructible-type/Bodoni)",
+   "author": "Owen Earl"
+  },
+  {
+   "id": "prata",
+   "family": "Prata",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "prata/prata-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "prata/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Prata Project Authors (https://github.com/cyrealtype/Prata)",
+   "author": "Ivan Petrov"
+  },
+  {
+   "id": "rozha-one",
+   "family": "Rozha One",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "rozha-one/rozha-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "rozha-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2014, Indian Type Foundry (info@indiantypefoundry.com).",
+   "author": "Tim Donaldson, Indian Type Foundry"
+  },
+  {
+   "id": "gravitas-one",
+   "family": "Gravitas One",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "gravitas-one/gravitas-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "gravitas-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name \"Gravitas\".",
+   "author": "Riccardo De Franceschi"
+  },
+  {
+   "id": "fraunces",
+   "family": "Fraunces",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "fraunces/fraunces-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "fraunces/fraunces-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "fraunces/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)",
+   "author": "Undercase Type"
+  },
+  {
+   "id": "young-serif",
+   "family": "Young Serif",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "young-serif/young-serif-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "young-serif/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Young Serif Project Authors (https://github.com/noirblancrouge/YoungSerif)",
+   "author": "Bastien Sozeau"
+  },
+  {
+   "id": "instrument-serif",
+   "family": "Instrument Serif",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "instrument-serif/instrument-serif-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "instrument-serif/instrument-serif-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "instrument-serif/OFL.txt"
+   },
+   "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)",
+   "author": "Rodrigo Fuenzalida"
+  },
+  {
+   "id": "italiana",
+   "family": "Italiana",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "italiana/italiana-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "italiana/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font Name \"Italiana\".",
+   "author": "Santiago Orozco"
+  },
+  {
+   "id": "marcellus",
+   "family": "Marcellus",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "marcellus/marcellus-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "marcellus/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names \"Marcellus\"",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "cinzel-decorative",
+   "family": "Cinzel Decorative",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "cinzel-decorative/cinzel-decorative-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "cinzel-decorative/cinzel-decorative-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cinzel-decorative/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'",
+   "author": "Natanael Gama"
+  },
+  {
+   "id": "gloock",
+   "family": "Gloock",
+   "category": "serif",
+   "group": "display-serif",
+   "files": [
+    {
+     "path": "gloock/gloock-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "gloock/OFL.txt"
+   },
+   "copyright": "Copyright 2022 The Gloock Project Authors (https://github.com/duartp/gloock)",
+   "author": "Duarte Pinto"
+  },
+  {
+   "id": "roboto-slab",
+   "family": "Roboto Slab",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "roboto-slab/roboto-slab-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "roboto-slab/roboto-slab-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "roboto-slab/roboto-slab-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "roboto-slab/roboto-slab-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "roboto-slab/LICENSE.txt"
+   },
+   "copyright": "Copyright 2018 The Roboto Slab Project Authors (https://github.com/googlefonts/robotoslab)",
+   "author": "Google"
+  },
+  {
+   "id": "arvo",
+   "family": "Arvo",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "arvo/arvo-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "arvo/arvo-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "arvo/arvo-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "arvo/arvo-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "arvo/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010-2013, Anton Koovit (anton@korkork.com), with Reserved Font Name 'Arvo'",
+   "author": "Anton Koovit"
+  },
+  {
+   "id": "bitter",
+   "family": "Bitter",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "bitter/bitter-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "bitter/bitter-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "bitter/bitter-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "bitter/bitter-variable.ttf",
+     "weight": 900,
+     "italic": false,
+     "styleName": "Black"
+    },
+    {
+     "path": "bitter/bitter-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "bitter/bitter-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bitter/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro) with Reserved Font Name \"Bitter Pro\".",
+   "author": "Sol Matas, and Bitter project Authors"
+  },
+  {
+   "id": "zilla-slab",
+   "family": "Zilla Slab",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "zilla-slab/zilla-slab-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "zilla-slab/zilla-slab-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "zilla-slab/OFL.txt"
+   },
+   "copyright": "Copyright 2017, The Mozilla Foundation",
+   "author": "Typotheque.com"
+  },
+  {
+   "id": "alfa-slab-one",
+   "family": "Alfa Slab One",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "alfa-slab-one/alfa-slab-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "alfa-slab-one/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Alfa Slab One Project Authors (http://www.jmsole.cl | info@jmsole.cl), with Reserved Font Name \"Alfa Slab\".",
+   "author": "JM Sole"
+  },
+  {
+   "id": "josefin-slab",
+   "family": "Josefin Slab",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "josefin-slab/josefin-slab-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "josefin-slab/josefin-slab-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "josefin-slab/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Josefin Slab Project Authors (https://github.com/googlefonts/josefinslab/) Copyright (c) 2010, Santiago Orozco (hi@typemade.mx), with Reserved Font Name Josefin.",
+   "author": "Santiago Orozco"
+  },
+  {
+   "id": "crete-round",
+   "family": "Crete Round",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "crete-round/crete-round-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "crete-round/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names \"Crete\" and \"Crete Round\"",
+   "author": "Veronika Burian"
+  },
+  {
+   "id": "slabo-27px",
+   "family": "Slabo 27px",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "slabo-27px/slabo-27px-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "slabo-27px/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2013, Tiro Typeworks Ltd (www.tiro.com).",
+   "author": "John Hudson"
+  },
+  {
+   "id": "rokkitt",
+   "family": "Rokkitt",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "rokkitt/rokkitt-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "rokkitt/rokkitt-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "rokkitt/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Rokkit Project Authors (https://github.com/googlefonts/RokkittFont)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "ultra",
+   "family": "Ultra",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "ultra/ultra-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "ultra/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "aleo",
+   "family": "Aleo",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "aleo/aleo-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "aleo/aleo-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "aleo/aleo-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "aleo/aleo-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "aleo/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Aleo Project Authors (https://github.com/AlessioLaiso/aleo)",
+   "author": "Alessio Laiso"
+  },
+  {
+   "id": "bree-serif",
+   "family": "Bree Serif",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "bree-serif/bree-serif-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bree-serif/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names \"Bree\" and \"Bree Serif\"",
+   "author": "Veronika Burian, Jos Scaglione"
+  },
+  {
+   "id": "patua-one",
+   "family": "Patua One",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "patua-one/patua-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "patua-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by LatinoType Limitada (luciano@latinotype.com), with Reserved Font Names \"Patua One\"",
+   "author": "luciano Vergara"
+  },
+  {
+   "id": "holtwood-one-sc",
+   "family": "Holtwood One SC",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "holtwood-one-sc/holtwood-one-sc-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "holtwood-one-sc/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Holtwood Project Authors (https://github.com/googlefonts/HoltwoodFont)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "bevan",
+   "family": "Bevan",
+   "category": "serif",
+   "group": "slab-serif",
+   "files": [
+    {
+     "path": "bevan/bevan-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bevan/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Bevan Project Authors (https://github.com/googlefonts/BevanFont)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "anton",
+   "family": "Anton",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "anton/anton-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "anton/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "anton-sc",
+   "family": "Anton SC",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "anton-sc/anton-sc-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "anton-sc/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "bebas-neue",
+   "family": "Bebas Neue",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "bebas-neue/bebas-neue-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bebas-neue/OFL.txt"
+   },
+   "copyright": "Copyright © 2010 by Dharma Type.",
+   "author": "Ryoichi Tsunekawa"
+  },
+  {
+   "id": "league-gothic",
+   "family": "League Gothic",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "league-gothic/league-gothic-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "league-gothic/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The League Gothic Project Authors (https://github.com/theleagueof/league-gothic)",
+   "author": "The League of Moveable Type"
+  },
+  {
+   "id": "archivo-black",
+   "family": "Archivo Black",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "archivo-black/archivo-black-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "archivo-black/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The Archivo Black Project Authors (https://github.com/Omnibus-Type/ArchivoBlack)",
+   "author": "Hector Gatti"
+  },
+  {
+   "id": "francois-one",
+   "family": "Francois One",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "francois-one/francois-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "francois-one/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Francois One Project Authors (contact@sansoxygen.com)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "passion-one",
+   "family": "Passion One",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "passion-one/passion-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "passion-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Names, 'Passion'",
+   "author": "Alejandro Lo Celso"
+  },
+  {
+   "id": "staatliches",
+   "family": "Staatliches",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "staatliches/staatliches-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "staatliches/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Staatliches Authors (https://github.com/googlefonts/staatliches)",
+   "author": "Brian LaRossa & Erica Carras"
+  },
+  {
+   "id": "six-caps",
+   "family": "Six Caps",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "six-caps/six-caps-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "six-caps/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Vernon Adams (vern@newtypography.co.uk), with Reserved Font Name \"Six Caps\" \"SixCaps\".",
+   "author": "vernon adams"
+  },
+  {
+   "id": "bowlby-one",
+   "family": "Bowlby One",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "bowlby-one/bowlby-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bowlby-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Bowlby\" \"Bowlby One\" and \"Bowlby One SC\"",
+   "author": "vernon adams"
+  },
+  {
+   "id": "bowlby-one-sc",
+   "family": "Bowlby One SC",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "bowlby-one-sc/bowlby-one-sc-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bowlby-one-sc/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Bowlby\" \"Bowlby One\" and \"Bowlby One SC\"",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "squada-one",
+   "family": "Squada One",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "squada-one/squada-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "squada-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Admix Designs (http://www.admixdesigns.com/), with Reserved Font Names \"Squada\" and \"Squada One\"",
+   "author": "Joe Prince"
+  },
+  {
+   "id": "alumni-sans",
+   "family": "Alumni Sans",
+   "category": "display",
+   "group": "meme-impact",
+   "files": [
+    {
+     "path": "alumni-sans/alumni-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "alumni-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Alumni Sans Project Authors (https://github.com/googlefonts/alumni)",
+   "author": "Robert E. Leuschke"
+  },
+  {
+   "id": "bungee",
+   "family": "Bungee",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "bungee/bungee-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bungee/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Bungee Project Authors (https://github.com/djrrb/Bungee)",
+   "author": "David Jonathan Ross"
+  },
+  {
+   "id": "titan-one",
+   "family": "Titan One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "titan-one/titan-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "titan-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Titan.",
+   "author": "Rodrigo Fuenzalida"
+  },
+  {
+   "id": "russo-one",
+   "family": "Russo One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "russo-one/russo-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "russo-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011-2012, Jovanny Lemonad (jovanny.ru), with Reserved Font Name \"Russo\"",
+   "author": "Jovanny lemonad"
+  },
+  {
+   "id": "rubik-mono-one",
+   "family": "Rubik Mono One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "rubik-mono-one/rubik-mono-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "rubik-mono-one/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Rubik Project Authors (mail@hubertfischer.com)",
+   "author": "Hubert and Fischer with Elvire Volk Leonovitch (Cyrillic Expansion: Cyreal)"
+  },
+  {
+   "id": "lilita-one",
+   "family": "Lilita One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "lilita-one/lilita-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "lilita-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Juan Montoreano (juan@remolacha.biz), with Reserved Font Name Lilita",
+   "author": "Juan Montoreano"
+  },
+  {
+   "id": "paytone-one",
+   "family": "Paytone One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "paytone-one/paytone-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "paytone-one/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Paytone Project Authors (https://github.com/googlefonts/paytoneFont), with Reserved Font Names \"Paytone\" and \"Paytone One\".",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "changa-one",
+   "family": "Changa One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "changa-one/changa-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "changa-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name \"Changa\"",
+   "author": "Eduardo Rodriguez Tunni"
+  },
+  {
+   "id": "racing-sans-one",
+   "family": "Racing Sans One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "racing-sans-one/racing-sans-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "racing-sans-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com),Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name Racing Sans.",
+   "author": "Pablo Impallari, Rodrigo Fuenzalida"
+  },
+  {
+   "id": "chango",
+   "family": "Chango",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "chango/chango-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "chango/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Names, 'Chango'",
+   "author": "Manuel Lupez"
+  },
+  {
+   "id": "rammetto-one",
+   "family": "Rammetto One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "rammetto-one/rammetto-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "rammetto-one/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Rammetto Project Authors (https://github.com/googlefonts/RammettoFont), with Reserved Font Name Rammetto.",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "krona-one",
+   "family": "Krona One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "krona-one/krona-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "krona-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Names \"Krona\" and \"Krona One\".",
+   "author": "Yvonne Schuettler"
+  },
+  {
+   "id": "days-one",
+   "family": "Days One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "days-one/days-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "days-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Jovanny Lemonad (http://www.jovanny.ru) with Reserved Font Name \"Days One\"",
+   "author": "Alexander Kalachev, Alexey Maslov, Jovanny Lemonad"
+  },
+  {
+   "id": "shrikhand",
+   "family": "Shrikhand",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "shrikhand/shrikhand-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "shrikhand/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2015 Jonny Pinhorn (jonpinhorn.typedesign@gmail.com)",
+   "author": "Jonny Pinhorn"
+  },
+  {
+   "id": "sigmar-one",
+   "family": "Sigmar One",
+   "category": "display",
+   "group": "heavy-display",
+   "files": [
+    {
+     "path": "sigmar-one/sigmar-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sigmar-one/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Sigmar One Project Authors (contact@sansoxygen.com)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "caveat",
+   "family": "Caveat",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "caveat/caveat-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "caveat/caveat-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "caveat/OFL.txt"
+   },
+   "copyright": "Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)",
+   "author": "Pablo Impallari"
+  },
+  {
+   "id": "kalam",
+   "family": "Kalam",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "kalam/kalam-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "kalam/kalam-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "kalam/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2014, Indian Type Foundry (info@indiantypefoundry.com).",
+   "author": "Lipi Raval (Devanagari and Latin), Jonny Pinhorn (Latin)"
+  },
+  {
+   "id": "indie-flower",
+   "family": "Indie Flower",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "indie-flower/indie-flower-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "indie-flower/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Indie Flower Authors (kimberlygeswein.com),",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "shadows-into-light",
+   "family": "Shadows Into Light",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "shadows-into-light/shadows-into-light-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "shadows-into-light/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "amatic-sc",
+   "family": "Amatic SC",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "amatic-sc/amatic-sc-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "amatic-sc/amatic-sc-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "amatic-sc/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Amatic SC Project Authors (https://github.com/googlefonts/AmaticSC)",
+   "author": "Multiple Designers"
+  },
+  {
+   "id": "gloria-hallelujah",
+   "family": "Gloria Hallelujah",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "gloria-hallelujah/gloria-hallelujah-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "gloria-hallelujah/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "architects-daughter",
+   "family": "Architects Daughter",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "architects-daughter/architects-daughter-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "architects-daughter/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "patrick-hand",
+   "family": "Patrick Hand",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "patrick-hand/patrick-hand-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "patrick-hand/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010-2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)",
+   "author": "Patrick Wagesreiter"
+  },
+  {
+   "id": "homemade-apple",
+   "family": "Homemade Apple",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "homemade-apple/homemade-apple-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "homemade-apple/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved.",
+   "author": "Font Diner, Inc"
+  },
+  {
+   "id": "nothing-you-could-do",
+   "family": "Nothing You Could Do",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "nothing-you-could-do/nothing-you-could-do-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "nothing-you-could-do/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "reenie-beanie",
+   "family": "Reenie Beanie",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "reenie-beanie/reenie-beanie-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "reenie-beanie/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, James Grieshaber (james@typeco.com)",
+   "author": "James Grieshaber"
+  },
+  {
+   "id": "covered-by-your-grace",
+   "family": "Covered By Your Grace",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "covered-by-your-grace/covered-by-your-grace-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "covered-by-your-grace/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "just-another-hand",
+   "family": "Just Another Hand",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "just-another-hand/just-another-hand-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "just-another-hand/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "coming-soon",
+   "family": "Coming Soon",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "coming-soon/coming-soon-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "coming-soon/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Open Window. All rights reserved.",
+   "author": "Dathan Boardman"
+  },
+  {
+   "id": "schoolbell",
+   "family": "Schoolbell",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "schoolbell/schoolbell-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "schoolbell/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved.",
+   "author": "Font Diner, Inc"
+  },
+  {
+   "id": "gochi-hand",
+   "family": "Gochi Hand",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "gochi-hand/gochi-hand-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "gochi-hand/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Juan Pablo del Peral (juandelperal@htfonts.com), with Reserved Font Names \"Gochi\" and \"Gochi Hand\"",
+   "author": "Juan Pablo del Peral"
+  },
+  {
+   "id": "handlee",
+   "family": "Handlee",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "handlee/handlee-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "handlee/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Joe Prince, Vissol Ltd. (http://www.vissol.co.uk/mavenpro/) with Reserved Font Name \"Handlee\".",
+   "author": "Joe Prince"
+  },
+  {
+   "id": "the-girl-next-door",
+   "family": "The Girl Next Door",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "the-girl-next-door/the-girl-next-door-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "the-girl-next-door/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "mali",
+   "family": "Mali",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "mali/mali-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "mali/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Mali Project Authors (https://github.com/cadsondemak/Mali)",
+   "author": "Kitiyaporn Chalermlarp | Katatrad Aksorn Co.,Ltd."
+  },
+  {
+   "id": "cedarville-cursive",
+   "family": "Cedarville Cursive",
+   "category": "handwriting",
+   "group": "handwriting",
+   "files": [
+    {
+     "path": "cedarville-cursive/cedarville-cursive-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cedarville-cursive/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "pacifico",
+   "family": "Pacifico",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "pacifico/pacifico-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "pacifico/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Pacifico Project Authors (https://github.com/googlefonts/Pacifico)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "dancing-script",
+   "family": "Dancing Script",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "dancing-script/dancing-script-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "dancing-script/dancing-script-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "dancing-script/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript), with Reserved Font Name 'Dancing Script'.",
+   "author": "Pablo Impallari"
+  },
+  {
+   "id": "great-vibes",
+   "family": "Great Vibes",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "great-vibes/great-vibes-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "great-vibes/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)",
+   "author": "Robert E. Leuschke, Viktoriya Grabowska, Viviana Monsalve, Eben Sorkin"
+  },
+  {
+   "id": "satisfy",
+   "family": "Satisfy",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "satisfy/satisfy-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "satisfy/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Font Diner, Inc. All rights reserved.",
+   "author": "Font Diner, Inc"
+  },
+  {
+   "id": "sacramento",
+   "family": "Sacramento",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "sacramento/sacramento-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sacramento/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names 'Sacramento'",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "yellowtail",
+   "family": "Yellowtail",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "yellowtail/yellowtail-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "yellowtail/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+   "author": "Astigmatic (Brian J. Bonislawsky)"
+  },
+  {
+   "id": "cookie",
+   "family": "Cookie",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "cookie/cookie-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cookie/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Ania Kruk (hello@aniakruk.com), with Reserved Font Name \"Cookie\".",
+   "author": "Ania Kruk"
+  },
+  {
+   "id": "parisienne",
+   "family": "Parisienne",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "parisienne/parisienne-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "parisienne/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names \"Parisienne\"",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "allura",
+   "family": "Allura",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "allura/allura-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "allura/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)",
+   "author": "Robert E. Leuschke"
+  },
+  {
+   "id": "alex-brush",
+   "family": "Alex Brush",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "alex-brush/alex-brush-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "alex-brush/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)",
+   "author": "Robert E. Leuschke"
+  },
+  {
+   "id": "courgette",
+   "family": "Courgette",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "courgette/courgette-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "courgette/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name \"Courgette\".",
+   "author": "Karolina Lach"
+  },
+  {
+   "id": "pinyon-script",
+   "family": "Pinyon Script",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "pinyon-script/pinyon-script-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "pinyon-script/OFL.txt"
+   },
+   "copyright": "Copyright 2024 The Pinyon Project Authors (https://github.com/SorkinType/Pinyon)",
+   "author": "Nicole Fally, Eben Sorkin"
+  },
+  {
+   "id": "tangerine",
+   "family": "Tangerine",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "tangerine/tangerine-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "tangerine/tangerine-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "tangerine/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Toshi Omagari (tosche@mac.com)",
+   "author": "Toshi Omagari"
+  },
+  {
+   "id": "mr-dafoe",
+   "family": "Mr Dafoe",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "mr-dafoe/mr-dafoe-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "mr-dafoe/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mr Dafoe\"",
+   "author": "Alejandro Paul"
+  },
+  {
+   "id": "herr-von-muellerhoff",
+   "family": "Herr Von Muellerhoff",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "herr-von-muellerhoff/herr-von-muellerhoff-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "herr-von-muellerhoff/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Herr Von Muellerhoff\"",
+   "author": "Alejandro Paul"
+  },
+  {
+   "id": "lobster",
+   "family": "Lobster",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "lobster/lobster-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "lobster/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name \"Lobster\".",
+   "author": "Impallari Type"
+  },
+  {
+   "id": "norican",
+   "family": "Norican",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "norican/norican-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "norican/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Norican Project Authors (https://github.com/googlefonts/NoricanFont)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "berkshire-swash",
+   "family": "Berkshire Swash",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "berkshire-swash/berkshire-swash-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "berkshire-swash/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names \"Berkshire Swash\"",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "playball",
+   "family": "Playball",
+   "category": "handwriting",
+   "group": "script-calligraphy",
+   "files": [
+    {
+     "path": "playball/playball-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "playball/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Playball Project Authors (https://github.com/googlefonts/play-ball)",
+   "author": "Robert E. Leuschke"
+  },
+  {
+   "id": "permanent-marker",
+   "family": "Permanent Marker",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "permanent-marker/permanent-marker-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "permanent-marker/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved.",
+   "author": "Font Diner, Inc"
+  },
+  {
+   "id": "kaushan-script",
+   "family": "Kaushan Script",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "kaushan-script/kaushan-script-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "kaushan-script/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com), with Reserved Font Name Kaushan Script.",
+   "author": "Pablo Impallari"
+  },
+  {
+   "id": "rock-salt",
+   "family": "Rock Salt",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "rock-salt/rock-salt-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "rock-salt/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.",
+   "author": "Squid"
+  },
+  {
+   "id": "marck-script",
+   "family": "Marck Script",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "marck-script/marck-script-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "marck-script/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com> & Marck Fogel, with Reserved Font Name \"Marck Script\".",
+   "author": "Denis Masharov, Marck Fogel"
+  },
+  {
+   "id": "caveat-brush",
+   "family": "Caveat Brush",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "caveat-brush/caveat-brush-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "caveat-brush/OFL.txt"
+   },
+   "copyright": "Copyright 2015 Google Inc. All Rights Reserved.",
+   "author": "Pablo Impallari"
+  },
+  {
+   "id": "sedgwick-ave",
+   "family": "Sedgwick Ave",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "sedgwick-ave/sedgwick-ave-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sedgwick-ave/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The Sedgwick Ave Project Authors (https://github.com/googlefonts/sedgwickave)",
+   "author": "Kevin Burke, Pedro Vergani"
+  },
+  {
+   "id": "sedgwick-ave-display",
+   "family": "Sedgwick Ave Display",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "sedgwick-ave-display/sedgwick-ave-display-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sedgwick-ave-display/OFL.txt"
+   },
+   "copyright": "Copyright 2017 The Sedgwick Ave Project Authors (https://github.com/googlefonts/sedgwickave)",
+   "author": "Kevin Burke, Pedro Vergani"
+  },
+  {
+   "id": "knewave",
+   "family": "Knewave",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "knewave/knewave-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "knewave/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Tyler Finck <hello@sursly.com>, with Reserved Font Name: \"Knewave\".",
+   "author": "Tyler Finck"
+  },
+  {
+   "id": "yesteryear",
+   "family": "Yesteryear",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "yesteryear/yesteryear-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "yesteryear/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names \"Yesteryear\"",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "mrs-sheppards",
+   "family": "Mrs Sheppards",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "mrs-sheppards/mrs-sheppards-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "mrs-sheppards/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Mrs Sheppards\"",
+   "author": "Alejandro Paul"
+  },
+  {
+   "id": "finger-paint",
+   "family": "Finger Paint",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "finger-paint/finger-paint-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "finger-paint/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Ralph du Carrois, with Reserved Font Name 'Finger Paint'",
+   "author": "Ralph du Carrois"
+  },
+  {
+   "id": "lacquer",
+   "family": "Lacquer",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "lacquer/lacquer-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "lacquer/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Lacquer Project Authors (https://github.com/Lacquer-Font/Lacquer)",
+   "author": "Eli Block, Niki Polyocan"
+  },
+  {
+   "id": "freckle-face",
+   "family": "Freckle Face",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "freckle-face/freckle-face-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "freckle-face/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Freckle Face'",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "damion",
+   "family": "Damion",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "damion/damion-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "damion/OFL.txt"
+   },
+   "copyright": "Copyright 2014 The Damion Project Authors (https://github.com/googlefonts/damionFont)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "bad-script",
+   "family": "Bad Script",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "bad-script/bad-script-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bad-script/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Bad Script Project Authors (https://github.com/alexeiva/badscript)",
+   "author": "Roman Shchyukin (Gaslight Type Foundry), Cyreal (Charset Expansion)"
+  },
+  {
+   "id": "londrina-solid",
+   "family": "Londrina Solid",
+   "category": "handwriting",
+   "group": "marker-brush",
+   "files": [
+    {
+     "path": "londrina-solid/londrina-solid-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "londrina-solid/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Londrina Solid Authors (https://github.com/marcelommp/Londrina-Typeface), with Reserved Font Name \"Londrina Solid”",
+   "author": "Marcelo Magalhaes"
+  },
+  {
+   "id": "space-mono",
+   "family": "Space Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "space-mono/space-mono-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "space-mono/space-mono-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "space-mono/space-mono-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "space-mono/space-mono-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "space-mono/OFL.txt"
+   },
+   "copyright": "Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)",
+   "author": "Colophon Foundry + Benjamin Critton"
+  },
+  {
+   "id": "jetbrains-mono",
+   "family": "JetBrains Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "jetbrains-mono/jetbrains-mono-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "jetbrains-mono/jetbrains-mono-variable.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "jetbrains-mono/jetbrains-mono-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "jetbrains-mono/jetbrains-mono-variable.ttf",
+     "weight": 800,
+     "italic": false,
+     "styleName": "ExtraBold"
+    },
+    {
+     "path": "jetbrains-mono/jetbrains-mono-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "jetbrains-mono/jetbrains-mono-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "jetbrains-mono/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)",
+   "author": "Philipp Nurullin, Konstantin Bulenkov"
+  },
+  {
+   "id": "courier-prime",
+   "family": "Courier Prime",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "courier-prime/courier-prime-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "courier-prime/courier-prime-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "courier-prime/courier-prime-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "courier-prime/courier-prime-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "courier-prime/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).",
+   "author": "Alan Dague-Greene, Quote-Unquote Apps"
+  },
+  {
+   "id": "special-elite",
+   "family": "Special Elite",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "special-elite/special-elite-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "special-elite/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "ibm-plex-mono",
+   "family": "IBM Plex Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "ibm-plex-mono/ibm-plex-mono-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "ibm-plex-mono/ibm-plex-mono-light.ttf",
+     "weight": 300,
+     "italic": false,
+     "styleName": "Light"
+    },
+    {
+     "path": "ibm-plex-mono/ibm-plex-mono-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "ibm-plex-mono/ibm-plex-mono-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "ibm-plex-mono/ibm-plex-mono-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "ibm-plex-mono/OFL.txt"
+   },
+   "copyright": "Copyright © 2017 IBM Corp. with Reserved Font Name \"Plex\"",
+   "author": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen"
+  },
+  {
+   "id": "fira-code",
+   "family": "Fira Code",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "fira-code/fira-code-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "fira-code/fira-code-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "fira-code/OFL.txt"
+   },
+   "copyright": "Copyright 2014-2020 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)",
+   "author": "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov"
+  },
+  {
+   "id": "source-code-pro",
+   "family": "Source Code Pro",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "source-code-pro/source-code-pro-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "source-code-pro/source-code-pro-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "source-code-pro/source-code-pro-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "source-code-pro/source-code-pro-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "source-code-pro/OFL.txt"
+   },
+   "copyright": "Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.",
+   "author": "Paul D. Hunt, Teo Tuominen"
+  },
+  {
+   "id": "roboto-mono",
+   "family": "Roboto Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "roboto-mono/roboto-mono-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "roboto-mono/roboto-mono-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "roboto-mono/roboto-mono-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "roboto-mono/roboto-mono-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "roboto-mono/OFL.txt"
+   },
+   "copyright": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)",
+   "author": "Google"
+  },
+  {
+   "id": "inconsolata",
+   "family": "Inconsolata",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "inconsolata/inconsolata-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "inconsolata/inconsolata-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "inconsolata/OFL.txt"
+   },
+   "copyright": "Copyright 2006 The Inconsolata Project Authors",
+   "author": "Raph Levien, Cyreal, Brenton Simpson"
+  },
+  {
+   "id": "cutive-mono",
+   "family": "Cutive Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "cutive-mono/cutive-mono-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cutive-mono/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Cutive Project Authors (https://github.com/googlefonts/cutivemono)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "major-mono-display",
+   "family": "Major Mono Display",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "major-mono-display/major-mono-display-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "major-mono-display/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Major Mono Project Authors (https://github.com/googlefonts/majormono)",
+   "author": "Emre Parlak"
+  },
+  {
+   "id": "share-tech-mono",
+   "family": "Share Tech Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "share-tech-mono/share-tech-mono-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "share-tech-mono/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (post@carrois.com www.carrois.com), with Reserved Font Name 'Share'",
+   "author": "Ralph Oliver du Carrois"
+  },
+  {
+   "id": "dm-mono",
+   "family": "DM Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "dm-mono/dm-mono-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "dm-mono/dm-mono-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "dm-mono/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The DM Mono Project Authors (https://www.github.com/googlefonts/dm-mono)",
+   "author": "Colophon Foundry"
+  },
+  {
+   "id": "xanh-mono",
+   "family": "Xanh Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "xanh-mono/xanh-mono-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "xanh-mono/xanh-mono-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "xanh-mono/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The XanhMono Project Authors (https://github.com/yellow-type-foundry/xanhmono).",
+   "author": "Lam Bao, Duy Dao"
+  },
+  {
+   "id": "victor-mono",
+   "family": "Victor Mono",
+   "category": "mono",
+   "group": "mono-typewriter",
+   "files": [
+    {
+     "path": "victor-mono/victor-mono-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "victor-mono/victor-mono-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "victor-mono/victor-mono-italic-variable.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "victor-mono/victor-mono-italic-variable.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "victor-mono/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Victor Mono Project Authors (https://github.com/rubjo/victor-mono-font)",
+   "author": "Rune Bjørnerås"
+  },
+  {
+   "id": "press-start-2p",
+   "family": "Press Start 2P",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "press-start-2p/press-start-2p-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "press-start-2p/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net), with Reserved Font Name \"Press Start 2P\".",
+   "author": "CodeMan38"
+  },
+  {
+   "id": "vt323",
+   "family": "VT323",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "vt323/vt323-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "vt323/OFL.txt"
+   },
+   "copyright": "Copyright 2011, The VT323 Project Authors (peter.hull@oikoi.com)",
+   "author": "Peter Hull"
+  },
+  {
+   "id": "silkscreen",
+   "family": "Silkscreen",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "silkscreen/silkscreen-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "silkscreen/silkscreen-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "silkscreen/OFL.txt"
+   },
+   "copyright": "Copyright 2001 The Silkscreen Project Authors (https://github.com/googlefonts/silkscreen)",
+   "author": "Jason Kottke"
+  },
+  {
+   "id": "pixelify-sans",
+   "family": "Pixelify Sans",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "pixelify-sans/pixelify-sans-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "pixelify-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2021 The Pixelify Sans Project Authors (https://github.com/eifetx/Pixelify-Sans)",
+   "author": "Stefie Justprince"
+  },
+  {
+   "id": "tiny5",
+   "family": "Tiny5",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "tiny5/tiny5-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "tiny5/OFL.txt"
+   },
+   "copyright": "Copyright 2022-2024 The Tiny5 Project Authors (https://github.com/Gissio/font_tiny5)",
+   "author": "Stefan Schmidt"
+  },
+  {
+   "id": "jersey-10",
+   "family": "Jersey 10",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "jersey-10/jersey-10-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "jersey-10/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-jersey)",
+   "author": "Sarah Cadigan-Fried"
+  },
+  {
+   "id": "micro-5",
+   "family": "Micro 5",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "micro-5/micro-5-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "micro-5/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Soft Type Project Authors (https://github.com/scfried/soft-type-micro)",
+   "author": "Sarah Cadigan-Fried"
+  },
+  {
+   "id": "orbitron",
+   "family": "Orbitron",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "orbitron/orbitron-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "orbitron/orbitron-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "orbitron/OFL.txt"
+   },
+   "copyright": "Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron), with Reserved Font Name: \"Orbitron\"",
+   "author": "Matt McInerney"
+  },
+  {
+   "id": "audiowide",
+   "family": "Audiowide",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "audiowide/audiowide-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "audiowide/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names \"Audiowide\"",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "iceland",
+   "family": "Iceland",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "iceland/iceland-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "iceland/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org), with Reserved Font Name \"Iceland\".",
+   "author": "Cyreal (www.cyreal.org)"
+  },
+  {
+   "id": "syncopate",
+   "family": "Syncopate",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "syncopate/syncopate-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "syncopate/syncopate-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "syncopate/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "michroma",
+   "family": "Michroma",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "michroma/michroma-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "michroma/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "oxanium",
+   "family": "Oxanium",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "oxanium/oxanium-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "oxanium/oxanium-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "oxanium/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Oxanium Project Authors (https://github.com/sevmeyer/oxanium)",
+   "author": "Severin Meyer"
+  },
+  {
+   "id": "zen-dots",
+   "family": "Zen Dots",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "zen-dots/zen-dots-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "zen-dots/OFL.txt"
+   },
+   "copyright": "Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-dots)",
+   "author": "Yoshimichi Ohira"
+  },
+  {
+   "id": "sixtyfour",
+   "family": "Sixtyfour",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "sixtyfour/sixtyfour-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sixtyfour/OFL.txt"
+   },
+   "copyright": "Copyright 2021 The Sixtyfour Project Authors (https://github.com/jenskutilek/homecomputer-fonts)",
+   "author": "Jens Kutilek"
+  },
+  {
+   "id": "doto",
+   "family": "Doto",
+   "category": "fun",
+   "group": "retro-pixel",
+   "files": [
+    {
+     "path": "doto/doto-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "doto/OFL.txt"
+   },
+   "copyright": "Copyright 2024 The Doto Project Authors (https://github.com/oliverlalan/Doto)",
+   "author": "Oliver Lalan"
+  },
+  {
+   "id": "comic-neue",
+   "family": "Comic Neue",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "comic-neue/comic-neue-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "comic-neue/comic-neue-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    },
+    {
+     "path": "comic-neue/comic-neue-italic.ttf",
+     "weight": 400,
+     "italic": true,
+     "styleName": "Italic"
+    },
+    {
+     "path": "comic-neue/comic-neue-bolditalic.ttf",
+     "weight": 700,
+     "italic": true,
+     "styleName": "Bold Italic"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "comic-neue/OFL.txt"
+   },
+   "copyright": "Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)",
+   "author": "Craig Rozynski"
+  },
+  {
+   "id": "bangers",
+   "family": "Bangers",
+   "category": "display",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "bangers/bangers-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bangers/OFL.txt"
+   },
+   "copyright": "Copyright 2010 The Bangers Project Authors (https://github.com/googlefonts/bangers)",
+   "author": "vernon adams"
+  },
+  {
+   "id": "luckiest-guy",
+   "family": "Luckiest Guy",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "luckiest-guy/luckiest-guy-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "luckiest-guy/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\rhttp://www.apache.org/licenses/LICENSE-2.0.html",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "chewy",
+   "family": "Chewy",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "chewy/chewy-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "chewy/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.",
+   "author": "Squid"
+  },
+  {
+   "id": "bubblegum-sans",
+   "family": "Bubblegum Sans",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "bubblegum-sans/bubblegum-sans-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bubblegum-sans/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Angel Koziupa (sudtipos@sudtipos.com), Copyright (c) 2011 Alejandro Paul (sudtipos@sudtipos.com), with Reserved Font Name \"Bubblegum Sans\"",
+   "author": "Angel Koziupa and Alejandro Paul"
+  },
+  {
+   "id": "sniglet",
+   "family": "Sniglet",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "sniglet/sniglet-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sniglet/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2008, Haley Fiege (haley@kingdomofawesome.com), Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com), Copyright (c) 2013, Pablo Impallari (www.impallari.com|impallari@gmail.com)",
+   "author": "Haley Fiege"
+  },
+  {
+   "id": "boogaloo",
+   "family": "Boogaloo",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "boogaloo/boogaloo-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "boogaloo/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, John Vargas Beltr�n� (www.johnvargasbeltran.com|john.vargasbeltran@gmail.com), with Reserved Font Name Boogaloo.",
+   "author": "John Vargas Beltran"
+  },
+  {
+   "id": "grandstander",
+   "family": "Grandstander",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "grandstander/grandstander-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "grandstander/grandstander-variable.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "grandstander/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Grandstander Project Authors (https://github.com/Etcetera-Type-Co/Grandstander)",
+   "author": "Tyler Finck"
+  },
+  {
+   "id": "balsamiq-sans",
+   "family": "Balsamiq Sans",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "balsamiq-sans/balsamiq-sans-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "balsamiq-sans/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Balsamiq Sans Project Authors (https://github.com/balsamiq/balsamiqsans)",
+   "author": "Michael Angeles"
+  },
+  {
+   "id": "love-ya-like-a-sister",
+   "family": "Love Ya Like A Sister",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "love-ya-like-a-sister/love-ya-like-a-sister-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "love-ya-like-a-sister/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)",
+   "author": "Kimberly Geswein"
+  },
+  {
+   "id": "emilys-candy",
+   "family": "Emilys Candy",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "emilys-candy/emilys-candy-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "emilys-candy/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Font Diner (www.fontdiner.com), with Reserved Font Name \"Emilys Candy\".",
+   "author": "Crystal Kluge"
+  },
+  {
+   "id": "mountains-of-christmas",
+   "family": "Mountains of Christmas",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "mountains-of-christmas/mountains-of-christmas-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "mountains-of-christmas/mountains-of-christmas-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "mountains-of-christmas/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 2011, Font Diner, Inc DBA Tart Workshop (diner@fontdiner.com) with Reserved Font Name \"Mountains of Christmas\"",
+   "author": "Crystal Kluge"
+  },
+  {
+   "id": "fontdiner-swanky",
+   "family": "Fontdiner Swanky",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "fontdiner-swanky/fontdiner-swanky-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "fontdiner-swanky/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved.",
+   "author": "Font Diner, Inc"
+  },
+  {
+   "id": "original-surfer",
+   "family": "Original Surfer",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "original-surfer/original-surfer-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "original-surfer/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names \"Original Surfer\"",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "cherry-cream-soda",
+   "family": "Cherry Cream Soda",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "cherry-cream-soda/cherry-cream-soda-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "cherry-cream-soda/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc. All rights reserved.",
+   "author": "Font Diner, Inc"
+  },
+  {
+   "id": "walter-turncoat",
+   "family": "Walter Turncoat",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "walter-turncoat/walter-turncoat-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "walter-turncoat/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.",
+   "author": "Squid"
+  },
+  {
+   "id": "gluten",
+   "family": "Gluten",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "gluten/gluten-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "gluten/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Gluten Project Authors (https://github.com/Etcetera-Type-Co/Gluten)",
+   "author": "Tyler Finck"
+  },
+  {
+   "id": "mouse-memoirs",
+   "family": "Mouse Memoirs",
+   "category": "fun",
+   "group": "comic-fun",
+   "files": [
+    {
+     "path": "mouse-memoirs/mouse-memoirs-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "mouse-memoirs/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name 'Mouse Memoirs'",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "black-ops-one",
+   "family": "Black Ops One",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "black-ops-one/black-ops-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "black-ops-one/OFL.txt"
+   },
+   "copyright": "Copyright 2022 The Black-Ops Project Authors (https://github.com/googlefonts/googlefonts-project-template)",
+   "author": "James Grieshaber, Eben Sorkin"
+  },
+  {
+   "id": "stardos-stencil",
+   "family": "Stardos Stencil",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "stardos-stencil/stardos-stencil-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "stardos-stencil/stardos-stencil-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "stardos-stencil/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Stardos\" and \"Stardos Stencil\".",
+   "author": "Vernon Adams"
+  },
+  {
+   "id": "allerta-stencil",
+   "family": "Allerta Stencil",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "allerta-stencil/allerta-stencil-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "allerta-stencil/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Matt McInerney (matt@pixelspread.com), with Reserved Font Name Allerta.",
+   "author": "Matt McInerney"
+  },
+  {
+   "id": "saira-stencil-one",
+   "family": "Saira Stencil One",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "saira-stencil-one/saira-stencil-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "saira-stencil-one/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Saira Stencil Project Authors (https://github.com/Omnibus-Type/Saira/SairaStencil)",
+   "author": "Hector Gatti with collaboration of the Omnibus-Type team"
+  },
+  {
+   "id": "big-shoulders-stencil-display",
+   "family": "Big Shoulders Stencil Display",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "big-shoulders-stencil-display/big-shoulders-stencil-display-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "big-shoulders-stencil-display/OFL.txt"
+   },
+   "copyright": "Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)",
+   "author": "Patric King"
+  },
+  {
+   "id": "sirin-stencil",
+   "family": "Sirin Stencil",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "sirin-stencil/sirin-stencil-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "sirin-stencil/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Cyreal (www.cyreal.org), with Reserved Font Name \"Sirin\" and \"Sirin Stencil\".",
+   "author": "Olga Karpushina (okarpush@gmail.com)"
+  },
+  {
+   "id": "emblema-one",
+   "family": "Emblema One",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "emblema-one/emblema-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "emblema-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Names \"Emblema\" and \"Emblema One\"",
+   "author": "Riccardo De Franceschi"
+  },
+  {
+   "id": "stalinist-one",
+   "family": "Stalinist One",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "stalinist-one/stalinist-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "stalinist-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Stalinist'",
+   "author": "Jovanny Lemonad"
+  },
+  {
+   "id": "graduate",
+   "family": "Graduate",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "graduate/graduate-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "graduate/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Graduate Project Authors (https://github.com/etunni/graduate) with Reserved Font Name \"Graduate\"",
+   "author": "Eduardo Tunni"
+  },
+  {
+   "id": "wallpoet",
+   "family": "Wallpoet",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "wallpoet/wallpoet-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "wallpoet/OFL.txt"
+   },
+   "copyright": "Copyright (c) 6 April 2011, Lars Berggren (lars@punktlars.se), with Reserved Font Name Wallpoet.",
+   "author": "Lars Berggren"
+  },
+  {
+   "id": "keania-one",
+   "family": "Keania One",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "keania-one/keania-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "keania-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name 'Keania'",
+   "author": "Julia Petretta"
+  },
+  {
+   "id": "kenia",
+   "family": "Kenia",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "kenia/kenia-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "kenia/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name Kenia",
+   "author": "Julia Petretta"
+  },
+  {
+   "id": "gemunu-libre",
+   "family": "Gemunu Libre",
+   "category": "fun",
+   "group": "stencil-military",
+   "files": [
+    {
+     "path": "gemunu-libre/gemunu-libre-variable.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "gemunu-libre/OFL.txt"
+   },
+   "copyright": "Copyright 2021 The Gemunu Libre Project Authors (https://github.com/mooniak/gemunu-libre-font/)",
+   "author": "Puspanada Ekanayake, Sola Matas, Pathum Egodawatta, Kosala Senevirathne"
+  },
+  {
+   "id": "monoton",
+   "family": "Monoton",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "monoton/monoton-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "monoton/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Monoton\"",
+   "author": "vernon adams"
+  },
+  {
+   "id": "bungee-shade",
+   "family": "Bungee Shade",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "bungee-shade/bungee-shade-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bungee-shade/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Bungee Project Authors (https://github.com/djrrb/Bungee)",
+   "author": "David Jonathan Ross"
+  },
+  {
+   "id": "creepster",
+   "family": "Creepster",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "creepster/creepster-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "creepster/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Font Diner, Inc (diner@fontdiner.com), with Reserved Font Names \"Creepster\"",
+   "author": "Font Diner, Inc"
+  },
+  {
+   "id": "nosifer",
+   "family": "Nosifer",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "nosifer/nosifer-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "nosifer/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Typomondo, with Reserved Font Name \"Nosifer\".",
+   "author": "Typomondo"
+  },
+  {
+   "id": "rye",
+   "family": "Rye",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "rye/rye-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "rye/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name \"Rye\".",
+   "author": "Nicole Fally"
+  },
+  {
+   "id": "unifrakturmaguntia",
+   "family": "UnifrakturMaguntia",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "unifrakturmaguntia/unifrakturmaguntia-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "unifrakturmaguntia/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2010, j. 'mach' wust, with Reserved Font Name UnifrakturMaguntia. Copyright (c) 2009, Peter Wiegel.",
+   "author": "j. 'mach' wust, based on a font by Peter Wiegel, original typeface by Carl Albert Fahrenwaldt 1901"
+  },
+  {
+   "id": "faster-one",
+   "family": "Faster One",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "faster-one/faster-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "faster-one/OFL.txt"
+   },
+   "copyright": "Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'",
+   "author": "Eduardo Rodriguez Tunni"
+  },
+  {
+   "id": "righteous",
+   "family": "Righteous",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "righteous/righteous-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "righteous/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Names \"Righteous\"",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "limelight",
+   "family": "Limelight",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "limelight/limelight-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "limelight/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name \"Limelight\".",
+   "author": "Nicole Fally"
+  },
+  {
+   "id": "poiret-one",
+   "family": "Poiret One",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "poiret-one/poiret-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "poiret-one/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Poiret One Project Authors (https://github.com/alexeiva/poiretone)",
+   "author": "Denis Masharov (denis.masharov@gmail.com), Cyreal (Charset Expansion)"
+  },
+  {
+   "id": "ewert",
+   "family": "Ewert",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "ewert/ewert-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "ewert/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 Johan Kallas (johankallas@gmail.com), Copyright (c) 2011 Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Ewert.",
+   "author": "Johan Kallas, Mihkel Virkus"
+  },
+  {
+   "id": "smokum",
+   "family": "Smokum",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "smokum/smokum-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "Apache License 2.0",
+    "file": "smokum/LICENSE.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence.\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+   "author": "Astigmatic (AOETI)"
+  },
+  {
+   "id": "frijole",
+   "family": "Frijole",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "frijole/frijole-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "frijole/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Sideshow (a DBA of Font Diner, Inc) (www.fontdiner.com), with Reserved Font Name \"Frijole\".",
+   "author": "Squid"
+  },
+  {
+   "id": "eater",
+   "family": "Eater",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "eater/eater-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "eater/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Typomondo, with Reserved Font Name  \"Eater\".",
+   "author": "Typomondo"
+  },
+  {
+   "id": "metal-mania",
+   "family": "Metal Mania",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "metal-mania/metal-mania-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "metal-mania/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012 by Open Window (dathanboardman@gmail.com) with Reseved Font Name \"Metal Mania\"",
+   "author": "Dathan Boardman"
+  },
+  {
+   "id": "pirata-one",
+   "family": "Pirata One",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "pirata-one/pirata-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "pirata-one/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2012, Rodrigo Fuenzalida, Nicolas Massi (www.taip.com.ar / abc.taip.com.ar), with Reserved Font Name 'Pirata'",
+   "author": "Rodrigo Fuenzalida, Nicolas Massi"
+  },
+  {
+   "id": "bungee-inline",
+   "family": "Bungee Inline",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "bungee-inline/bungee-inline-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "bungee-inline/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Bungee Project Authors (https://github.com/djrrb/Bungee)",
+   "author": "David Jonathan Ross"
+  },
+  {
+   "id": "cabin-sketch",
+   "family": "Cabin Sketch",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "cabin-sketch/cabin-sketch-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    },
+    {
+     "path": "cabin-sketch/cabin-sketch-bold.ttf",
+     "weight": 700,
+     "italic": false,
+     "styleName": "Bold"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "cabin-sketch/OFL.txt"
+   },
+   "copyright": "Copyright 2011 The Cabin Project Authors (impallari@gmail.com), with Reserved Font Name \"Cabin\", \"Cabin Sketch\".",
+   "author": "Pablo Impallari"
+  },
+  {
+   "id": "vast-shadow",
+   "family": "Vast Shadow",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "vast-shadow/vast-shadow-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "vast-shadow/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Names \"Vast\" and \"Vast Shadow\".",
+   "author": "Nicole Fally"
+  },
+  {
+   "id": "fredericka-the-great",
+   "family": "Fredericka the Great",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "fredericka-the-great/fredericka-the-great-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "fredericka-the-great/OFL.txt"
+   },
+   "copyright": "Copyright (c) 2011, Tart Workshop (a DBA of Font Diner, Inc) (www.fontdiner.com), with Reserved Font Name \"Fredericka the Great\".",
+   "author": "Crystal Kluge"
+  },
+  {
+   "id": "rubik-wet-paint",
+   "family": "Rubik Wet Paint",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "rubik-wet-paint/rubik-wet-paint-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "rubik-wet-paint/OFL.txt"
+   },
+   "copyright": "Copyright 2020 The Rubik Filtered Project Authors (https://https://github.com/NaN-xyz/Rubik-Filtered)",
+   "author": "Hubert and Fischer, NaN"
+  },
+  {
+   "id": "special-gothic-expanded-one",
+   "family": "Special Gothic Expanded One",
+   "category": "fun",
+   "group": "decorative",
+   "files": [
+    {
+     "path": "special-gothic-expanded-one/special-gothic-expanded-one-regular.ttf",
+     "weight": 400,
+     "italic": false,
+     "styleName": "Regular"
+    }
+   ],
+   "license": {
+    "name": "SIL Open Font License 1.1",
+    "file": "special-gothic-expanded-one/OFL.txt"
+   },
+   "copyright": "Copyright 2023 The Special Gothic Project Authors (https://github.com/AlistairMcCready/Special-Gothic/)",
+   "author": "Alistair McCready"
+  }
+ ]
+}

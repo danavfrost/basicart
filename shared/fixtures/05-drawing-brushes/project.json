@@ -1,0 +1,66 @@
+{
+  "formatVersion": 1,
+  "id": "05-drawing-brushes",
+  "name": "Drawing brushes",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 512,
+    "height": 512,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "draw-brushes",
+      "type": "drawing",
+      "name": "All brushes",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 256,
+        "y": 256,
+        "scale": 1,
+        "rotation": 0
+      },
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "draw-transformed",
+      "type": "drawing",
+      "name": "Scaled + rotated, clipped",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.8,
+      "blendMode": "normal",
+      "transform": {
+        "x": 380,
+        "y": 380,
+        "scale": 0.5,
+        "rotation": 30
+      },
+      "width": 200,
+      "height": 100
+    },
+    {
+      "id": "draw-no-file",
+      "type": "drawing",
+      "name": "No strokes file",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 256,
+        "y": 256,
+        "scale": 1,
+        "rotation": 0
+      },
+      "width": 512,
+      "height": 512
+    }
+  ]
+}

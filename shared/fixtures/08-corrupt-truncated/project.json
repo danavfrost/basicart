@@ -1,0 +1,37 @@
+{
+  "formatVersion": 1,
+  "id": "08-corrupt-truncated",
+  "name": "Truncated",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "t1",
+      "type": "text",
+      "name": "Text",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 540,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "cut off",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 64,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "le

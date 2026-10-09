@@ -1,0 +1,36 @@
+{
+  "formatVersion": 1,
+  "layerId": "draw-transformed",
+  "strokes": [
+    {
+      "brush": "marker",
+      "size": 8,
+      "color": "#00C853FF",
+      "opacity": 1,
+      "points": [
+        10,
+        10,
+        190,
+        10,
+        190,
+        90,
+        10,
+        90,
+        10,
+        10
+      ]
+    },
+    {
+      "brush": "pen",
+      "size": 6,
+      "color": "#000000FF",
+      "opacity": 1,
+      "points": [
+        -50,
+        50,
+        250,
+        50
+      ]
+    }
+  ]
+}

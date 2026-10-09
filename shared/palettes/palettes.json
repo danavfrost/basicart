@@ -1,0 +1,135 @@
+{
+  "formatVersion": 1,
+  "palettes": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "colors": [
+        "#000000FF",
+        "#FFFFFFFF",
+        "#E53935FF",
+        "#FB8C00FF",
+        "#FDD835FF",
+        "#43A047FF",
+        "#00ACC1FF",
+        "#1E88E5FF",
+        "#3949ABFF",
+        "#8E24AAFF",
+        "#D81B60FF",
+        "#6D4C41FF",
+        "#757575FF",
+        "#BDBDBDFF"
+      ]
+    },
+    {
+      "id": "pastel",
+      "name": "Pastel",
+      "colors": [
+        "#FFB3BAFF",
+        "#FFDFBAFF",
+        "#FFFFBAFF",
+        "#BAFFC9FF",
+        "#BAE1FFFF",
+        "#C9C9FFFF",
+        "#E0BBE4FF",
+        "#FEC8D8FF",
+        "#FFDFD3FF",
+        "#D4F0F0FF",
+        "#CCE2CBFF",
+        "#F6EAC2FF"
+      ]
+    },
+    {
+      "id": "vivid",
+      "name": "Vivid",
+      "colors": [
+        "#FF0000FF",
+        "#FF6D00FF",
+        "#FFD600FF",
+        "#AEEA00FF",
+        "#00C853FF",
+        "#00BFA5FF",
+        "#00B8D4FF",
+        "#2962FFFF",
+        "#6200EAFF",
+        "#AA00FFFF",
+        "#C51162FF",
+        "#FF1744FF"
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "colors": [
+        "#3E2723FF",
+        "#5D4037FF",
+        "#8D6E63FF",
+        "#A1887FFF",
+        "#D7CCC8FF",
+        "#6B8E23FF",
+        "#556B2FFF",
+        "#8F9779FF",
+        "#C2B280FF",
+        "#D2B48CFF",
+        "#B7410EFF",
+        "#CC7722FF",
+        "#704214FF",
+        "#2F4F4FFF"
+      ]
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "colors": [
+        "#FF073AFF",
+        "#FF5F1FFF",
+        "#FFF01FFF",
+        "#39FF14FF",
+        "#0FF0FCFF",
+        "#1F51FFFF",
+        "#BC13FEFF",
+        "#FF10F0FF",
+        "#FE019AFF",
+        "#CCFF00FF",
+        "#00FEFCFF",
+        "#FFFFFFFF"
+      ]
+    },
+    {
+      "id": "grayscale",
+      "name": "Grayscale",
+      "colors": [
+        "#000000FF",
+        "#1A1A1AFF",
+        "#333333FF",
+        "#4D4D4DFF",
+        "#666666FF",
+        "#808080FF",
+        "#999999FF",
+        "#B3B3B3FF",
+        "#CCCCCCFF",
+        "#E6E6E6FF",
+        "#F5F5F5FF",
+        "#FFFFFFFF"
+      ]
+    },
+    {
+      "id": "skin",
+      "name": "Skin tones",
+      "colors": [
+        "#FFE0BDFF",
+        "#FFDBACFF",
+        "#F8D5C2FF",
+        "#F1C27DFF",
+        "#E0AC69FF",
+        "#D9A066FF",
+        "#C68642FF",
+        "#B07D5BFF",
+        "#8D5524FF",
+        "#7A4B2AFF",
+        "#5C3A21FF",
+        "#3B2219FF"
+      ]
+    }
+  ]
+}

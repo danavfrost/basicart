@@ -1,0 +1,113 @@
+{
+  "formatVersion": 1,
+  "id": "06-missing-asset",
+  "name": "Missing asset",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 600,
+    "height": 400,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "img-missing",
+      "type": "image",
+      "name": "Missing photo",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 300,
+        "y": 200,
+        "scale": 0.25,
+        "rotation": 0
+      },
+      "assetRef": "292b0065bea4959f3af9ce9bc406d221ef6149d972551af3e8a92bf8a518dc48.jpg",
+      "naturalWidth": 1600,
+      "naturalHeight": 1200,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1200
+      },
+      "rotate90": 0,
+      "flipH": false,
+      "flipV": false,
+      "adjust": {
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "warmth": 0
+      },
+      "cornerRadius": 0,
+      "border": {
+        "enabled": false,
+        "width": 0,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "id": "t-caption",
+      "type": "text",
+      "name": "Caption",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 300,
+        "y": 360,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "still opens",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 40,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#000000FF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": []
+    }
+  ]
+}

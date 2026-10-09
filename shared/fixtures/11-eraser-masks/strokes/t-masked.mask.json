@@ -1,0 +1,18 @@
+{
+  "formatVersion": 1,
+  "layerId": "t-masked",
+  "strokes": [
+    {
+      "brush": "eraser",
+      "size": 30,
+      "color": "#000000FF",
+      "opacity": 1,
+      "points": [
+        -20,
+        -10,
+        120,
+        90
+      ]
+    }
+  ]
+}

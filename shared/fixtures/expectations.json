@@ -1,0 +1,539 @@
+{
+  "formatVersion": 1,
+  "fixtures": {
+    "01-all-layer-types": {
+      "result": "ok",
+      "canvas": [
+        1080,
+        1080,
+        "#FFFFFFFF"
+      ],
+      "layers": [
+        {
+          "id": "img-photo",
+          "type": "image",
+          "visible": true,
+          "locked": false,
+          "box": [
+            64,
+            48
+          ]
+        },
+        {
+          "id": "shape-rect",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            600,
+            120
+          ]
+        },
+        {
+          "id": "draw-1",
+          "type": "drawing",
+          "visible": true,
+          "locked": false,
+          "box": [
+            1080,
+            1080
+          ]
+        },
+        {
+          "id": "text-title",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        }
+      ],
+      "strokeCounts": {
+        "draw-1": 1
+      }
+    },
+    "02-text-effects": {
+      "result": "ok",
+      "canvas": [
+        1200,
+        1600,
+        "#1E1E2EFF"
+      ],
+      "layers": [
+        {
+          "id": "t-meme",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-shadow",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-double",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-glow",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-linear",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-radial",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-curve-up",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-curve-down",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-curve-multi",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-box",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-case",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        }
+      ]
+    },
+    "03-rich-text-spans": {
+      "result": "ok",
+      "canvas": [
+        1080,
+        1080,
+        "#FFFFFFFF"
+      ],
+      "layers": [
+        {
+          "id": "t-mixed",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-italic-layer",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-weight",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        }
+      ],
+      "spans": {
+        "t-mixed": [
+          [
+            6,
+            11
+          ],
+          [
+            12,
+            15
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            22,
+            26
+          ]
+        ],
+        "t-italic-layer": [
+          [
+            14,
+            23
+          ]
+        ],
+        "t-weight": [
+          [
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "04-flags-shapes-image": {
+      "result": "ok",
+      "canvas": [
+        800,
+        600,
+        "#00000000"
+      ],
+      "layers": [
+        {
+          "id": "img-adjusted",
+          "type": "image",
+          "visible": true,
+          "locked": false,
+          "box": [
+            30,
+            40
+          ]
+        },
+        {
+          "id": "img-alpha",
+          "type": "image",
+          "visible": true,
+          "locked": false,
+          "box": [
+            32,
+            32
+          ]
+        },
+        {
+          "id": "shape-rect",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            160,
+            100
+          ]
+        },
+        {
+          "id": "shape-round",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            160,
+            100
+          ]
+        },
+        {
+          "id": "shape-ellipse",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            160,
+            100
+          ]
+        },
+        {
+          "id": "shape-line",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            200,
+            6
+          ]
+        },
+        {
+          "id": "shape-arrow",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            260,
+            12
+          ]
+        },
+        {
+          "id": "shape-hidden",
+          "type": "shape",
+          "visible": false,
+          "locked": false,
+          "box": [
+            80,
+            80
+          ]
+        },
+        {
+          "id": "shape-locked",
+          "type": "shape",
+          "visible": true,
+          "locked": true,
+          "box": [
+            60,
+            40
+          ]
+        },
+        {
+          "id": "t-hidden-locked",
+          "type": "text",
+          "visible": false,
+          "locked": true
+        }
+      ]
+    },
+    "05-drawing-brushes": {
+      "result": "ok",
+      "canvas": [
+        512,
+        512,
+        "#FFFFFFFF"
+      ],
+      "layers": [
+        {
+          "id": "draw-brushes",
+          "type": "drawing",
+          "visible": true,
+          "locked": false,
+          "box": [
+            512,
+            512
+          ]
+        },
+        {
+          "id": "draw-transformed",
+          "type": "drawing",
+          "visible": true,
+          "locked": false,
+          "box": [
+            200,
+            100
+          ]
+        },
+        {
+          "id": "draw-no-file",
+          "type": "drawing",
+          "visible": true,
+          "locked": false,
+          "box": [
+            512,
+            512
+          ]
+        }
+      ],
+      "strokeCounts": {
+        "draw-brushes": 9,
+        "draw-transformed": 2,
+        "draw-no-file": 0
+      }
+    },
+    "06-missing-asset": {
+      "result": "ok",
+      "canvas": [
+        600,
+        400,
+        "#FFFFFFFF"
+      ],
+      "layers": [
+        {
+          "id": "img-missing",
+          "type": "image",
+          "visible": true,
+          "locked": false,
+          "box": [
+            1600,
+            1200
+          ]
+        },
+        {
+          "id": "t-caption",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        }
+      ],
+      "missingAssets": [
+        "img-missing"
+      ]
+    },
+    "07-future-version": {
+      "result": "newerVersion"
+    },
+    "12-mixed-styles": {
+      "result": "ok",
+      "canvas": [
+        1080,
+        1080,
+        "#1E1E2EFF"
+      ],
+      "layers": [
+        {
+          "id": "t-styled",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        },
+        {
+          "id": "t-solid",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        }
+      ],
+      "spans": {
+        "t-styled": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            9,
+            14
+          ],
+          [
+            15,
+            17
+          ],
+          [
+            24,
+            35
+          ]
+        ],
+        "t-solid": [
+          [
+            6,
+            9
+          ]
+        ]
+      }
+    },
+    "11-eraser-masks": {
+      "result": "ok",
+      "canvas": [
+        800,
+        800,
+        "#FFFFFFFF"
+      ],
+      "layers": [
+        {
+          "id": "img-masked",
+          "type": "image",
+          "visible": true,
+          "locked": false,
+          "box": [
+            40,
+            48
+          ]
+        },
+        {
+          "id": "shape-masked",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            200,
+            200
+          ]
+        },
+        {
+          "id": "shape-bad-mask",
+          "type": "shape",
+          "visible": true,
+          "locked": false,
+          "box": [
+            150,
+            150
+          ]
+        },
+        {
+          "id": "draw-plain",
+          "type": "drawing",
+          "visible": true,
+          "locked": false,
+          "box": [
+            400,
+            400
+          ]
+        },
+        {
+          "id": "t-masked",
+          "type": "text",
+          "visible": true,
+          "locked": false
+        }
+      ],
+      "strokeCounts": {
+        "draw-plain": 1
+      },
+      "maskStrokeCounts": {
+        "img-masked": 2,
+        "shape-masked": 1,
+        "shape-bad-mask": 0,
+        "draw-plain": 0,
+        "t-masked": 1
+      }
+    },
+    "08-corrupt-truncated": {
+      "result": "corrupt"
+    },
+    "09-corrupt-duplicate-ids": {
+      "result": "corrupt"
+    },
+    "10-corrupt-bad-types": {
+      "result": "corrupt"
+    }
+  },
+  "packages": {
+    "valid-12-mixed-styles.zip": {
+      "result": "ok",
+      "source": "12-mixed-styles",
+      "editorState": true
+    },
+    "valid-11-eraser-masks.zip": {
+      "result": "ok",
+      "source": "11-eraser-masks",
+      "editorState": false
+    },
+    "evil-paths.zip": {
+      "result": "rejected",
+      "reasons": [
+        "duplicateEntry",
+        "symlink",
+        "unexpectedEntry",
+        "unsafePath"
+      ]
+    },
+    "evil-zip-bomb.zip": {
+      "result": "rejected",
+      "reasons": [
+        "compressionRatio"
+      ]
+    },
+    "newer-package-version.zip": {
+      "result": "rejected",
+      "reasons": [
+        "newerVersion"
+      ]
+    },
+    "not-a-package.zip": {
+      "result": "rejected",
+      "reasons": [
+        "notAPackage"
+      ]
+    }
+  }
+}

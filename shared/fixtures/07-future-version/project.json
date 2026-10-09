@@ -1,0 +1,31 @@
+{
+  "formatVersion": 999,
+  "id": "07-future-version",
+  "name": "From the future",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#FFFFFFFF",
+    "colorSpace": "display-p3"
+  },
+  "layers": [
+    {
+      "id": "x1",
+      "type": "hologram",
+      "transform": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "beams": 3
+    }
+  ]
+}

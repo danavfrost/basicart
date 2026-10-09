@@ -1,0 +1,265 @@
+{
+  "formatVersion": 1,
+  "casesVersion": 1,
+  "contract": "FORMAT.md §7.10. Output layout-results-<platform>.json; compare with shared/tools/compare_layout.py (±1 px, line ranges exact). Missing layer fields take FORMAT.md §7.1 defaults; transform.scale = 1.",
+  "cases": [
+    {
+      "id": "kern-inter",
+      "purpose": "Kerning pairs on (AV, Yo, WA, Ta) in Inter",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "AVATAR Toyota WAVE",
+        "fontId": "inter",
+        "fontSize": 96
+      }
+    },
+    {
+      "id": "kern-inter-bold",
+      "purpose": "Kerning with B toggle -> real 700 file of a variable font",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "AVATAR Toyota WAVE",
+        "fontId": "inter",
+        "fontSize": 96,
+        "bold": true
+      }
+    },
+    {
+      "id": "kern-serif",
+      "purpose": "Kerning in a static serif",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "AVATAR Toyota WAVE",
+        "fontId": "lora",
+        "fontSize": 96
+      }
+    },
+    {
+      "id": "ligatures-off",
+      "purpose": "fi/ffl/ff must NOT ligate (liga off) in a font that has them",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "office fluffy affine waffle",
+        "fontId": "eb-garamond",
+        "fontSize": 80
+      }
+    },
+    {
+      "id": "letter-spacing",
+      "purpose": "Positive letter spacing in em of the run size",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "Spacing test",
+        "fontId": "inter",
+        "fontSize": 72,
+        "letterSpacing": 0.15
+      }
+    },
+    {
+      "id": "letter-spacing-negative",
+      "purpose": "Negative spacing, condensed display font",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "TIGHT HEADLINE",
+        "fontId": "anton",
+        "fontSize": 120,
+        "letterSpacing": -0.05
+      }
+    },
+    {
+      "id": "wrap-box",
+      "purpose": "Greedy word wrap at spaces in a fixed box",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "The quick brown fox jumps over the lazy dog near the riverbank.",
+        "fontId": "inter",
+        "fontSize": 48,
+        "autoWidth": false,
+        "boxWidth": 400,
+        "align": "left"
+      }
+    },
+    {
+      "id": "wrap-hyphen",
+      "purpose": "Break opportunities after hyphens between letters",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "state-of-the-art well-known e-mail",
+        "fontId": "inter",
+        "fontSize": 48,
+        "autoWidth": false,
+        "boxWidth": 300,
+        "align": "left"
+      }
+    },
+    {
+      "id": "wrap-long-word",
+      "purpose": "Word wider than the box breaks between graphemes",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "Supercalifragilistic",
+        "fontId": "inter",
+        "fontSize": 64,
+        "autoWidth": false,
+        "boxWidth": 250,
+        "align": "left"
+      }
+    },
+    {
+      "id": "autowidth-max",
+      "purpose": "autoWidth wraps at 0.9 x canvas width (540 px here)",
+      "canvasWidth": 600,
+      "layer": {
+        "text": "This sentence is longer than ninety percent of the canvas",
+        "fontId": "inter",
+        "fontSize": 64
+      }
+    },
+    {
+      "id": "whitespace",
+      "purpose": "Leading whitespace kept, trailing whitespace not counted, NBSP never breaks",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "  leading and trailing   \nsecond line  ",
+        "fontId": "inter",
+        "fontSize": 40,
+        "align": "left"
+      }
+    },
+    {
+      "id": "justify",
+      "purpose": "Justify on all but the last line of the paragraph",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "Justified text spreads the extra space evenly across the gaps between words on each line.",
+        "fontId": "source-serif-4",
+        "fontSize": 40,
+        "autoWidth": false,
+        "boxWidth": 500,
+        "align": "justify"
+      }
+    },
+    {
+      "id": "mixed-qa",
+      "purpose": "The QA repro: Pacifico span at 183 px (synth bold, underline), italic+strike span",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "Hello big worldnow",
+        "fontId": "inter",
+        "fontSize": 96,
+        "spans": [
+          {
+            "start": 6,
+            "end": 9,
+            "bold": true,
+            "underline": true,
+            "color": "#E53935FF",
+            "fontId": "pacifico",
+            "size": 183
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "italic": true,
+            "strike": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "mixed-lines",
+      "purpose": "Per-line height from the largest size; two fonts, three sizes, two lines",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "Big SALE today\nsmall print",
+        "fontId": "inter",
+        "fontSize": 60,
+        "spans": [
+          {
+            "start": 0,
+            "end": 3,
+            "fontId": "anton",
+            "size": 110
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "fontId": "anton",
+            "size": 110,
+            "underline": true
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "fontId": "caveat",
+            "size": 32,
+            "italic": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "synthetic-style",
+      "purpose": "Pacifico has no bold/italic: synthesized bold adds 0.04 em per grapheme",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "Synthetic Style",
+        "fontId": "pacifico",
+        "fontSize": 80,
+        "bold": true,
+        "italic": true
+      }
+    },
+    {
+      "id": "case-upper",
+      "purpose": "Upper casing that changes length (ß -> SS)",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "straße größe",
+        "fontId": "inter",
+        "fontSize": 60,
+        "textCase": "upper"
+      }
+    },
+    {
+      "id": "variable-weights",
+      "purpose": "Variable font wght set from the file entry (300 base, 900 span)",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "Light and Black",
+        "fontId": "inter",
+        "weight": 300,
+        "fontSize": 72,
+        "spans": [
+          {
+            "start": 10,
+            "end": 15,
+            "weight": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "line-height",
+      "purpose": "Multi-line with lineHeight 0.8 and a hhea-heavy font",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "ONE\nTWO\nTHREE",
+        "fontId": "anton",
+        "fontSize": 100,
+        "lineHeight": 0.8
+      }
+    },
+    {
+      "id": "curve-multiline",
+      "purpose": "Straight layout of a 3-line curved text (curve does not change §7.3 line metrics); render compare for §7.6 concentric arcs",
+      "canvasWidth": 1080,
+      "layer": {
+        "text": "first line on top\nmiddle\nlast line",
+        "fontId": "inter",
+        "fontSize": 56,
+        "curve": 40
+      }
+    }
+  ]
+}

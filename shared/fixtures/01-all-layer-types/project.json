@@ -1,0 +1,160 @@
+{
+  "formatVersion": 1,
+  "id": "01-all-layer-types",
+  "name": "All layer types",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "img-photo",
+      "type": "image",
+      "name": "Photo",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 405,
+        "scale": 16.875,
+        "rotation": 0
+      },
+      "assetRef": "6fe4aad40edba5d4736cec2dc86508a6910027e4004bc31ce0d2f80eabc79ada.png",
+      "naturalWidth": 64,
+      "naturalHeight": 48,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      },
+      "rotate90": 0,
+      "flipH": false,
+      "flipV": false,
+      "adjust": {
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "warmth": 0
+      },
+      "cornerRadius": 0,
+      "border": {
+        "enabled": false,
+        "width": 0,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "id": "shape-rect",
+      "type": "shape",
+      "name": "Rectangle",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 980,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "rect",
+      "width": 600,
+      "height": 120,
+      "fill": {
+        "enabled": true,
+        "color": "#FDD835FF"
+      },
+      "stroke": {
+        "enabled": true,
+        "color": "#000000FF",
+        "width": 6,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "draw-1",
+      "type": "drawing",
+      "name": "Drawing 1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 540,
+        "scale": 1,
+        "rotation": 0
+      },
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "id": "text-title",
+      "type": "text",
+      "name": "Title",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 120,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "Hello, Basic Art!",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 96,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#1E88E5FF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": []
+    }
+  ]
+}

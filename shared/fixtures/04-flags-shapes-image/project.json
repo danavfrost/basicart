@@ -1,0 +1,362 @@
+{
+  "formatVersion": 1,
+  "id": "04-flags-shapes-image",
+  "name": "Flags, shapes, image",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 800,
+    "height": 600,
+    "background": "#00000000"
+  },
+  "layers": [
+    {
+      "id": "img-adjusted",
+      "type": "image",
+      "name": "Adjusted photo",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 400,
+        "y": 300,
+        "scale": 8,
+        "rotation": 0
+      },
+      "assetRef": "6fe4aad40edba5d4736cec2dc86508a6910027e4004bc31ce0d2f80eabc79ada.png",
+      "naturalWidth": 64,
+      "naturalHeight": 48,
+      "crop": {
+        "x": 8,
+        "y": 4,
+        "width": 40,
+        "height": 30
+      },
+      "rotate90": 1,
+      "flipH": true,
+      "flipV": false,
+      "adjust": {
+        "brightness": 20,
+        "contrast": -30,
+        "saturation": 50,
+        "warmth": 40
+      },
+      "cornerRadius": 4,
+      "border": {
+        "enabled": true,
+        "width": 2,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "id": "img-alpha",
+      "type": "image",
+      "name": "Sticker (alpha PNG)",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.5,
+      "blendMode": "normal",
+      "transform": {
+        "x": 700,
+        "y": 100,
+        "scale": 3,
+        "rotation": 315
+      },
+      "assetRef": "055243aa8dc05a09569bec819b4004f39ded964b959e6aca0b571343954862f7.png",
+      "naturalWidth": 32,
+      "naturalHeight": 32,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      },
+      "rotate90": 0,
+      "flipH": false,
+      "flipV": false,
+      "adjust": {
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "warmth": 0
+      },
+      "cornerRadius": 0,
+      "border": {
+        "enabled": false,
+        "width": 0,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "id": "shape-rect",
+      "type": "shape",
+      "name": "Rect",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 100,
+        "y": 80,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "rect",
+      "width": 160,
+      "height": 100,
+      "fill": {
+        "enabled": true,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": true,
+        "color": "#000000FF",
+        "width": 4,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "shape-round",
+      "type": "shape",
+      "name": "Round rect",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 300,
+        "y": 80,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "roundRect",
+      "width": 160,
+      "height": 100,
+      "fill": {
+        "enabled": true,
+        "color": "#43A047FF"
+      },
+      "stroke": {
+        "enabled": false,
+        "color": "#000000FF",
+        "width": 8,
+        "join": "miter"
+      },
+      "cornerRadius": 30,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "shape-ellipse",
+      "type": "shape",
+      "name": "Ellipse (no fill)",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 500,
+        "y": 80,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "ellipse",
+      "width": 160,
+      "height": 100,
+      "fill": {
+        "enabled": false,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": true,
+        "color": "#8E24AAFF",
+        "width": 10,
+        "join": "round"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "shape-line",
+      "type": "shape",
+      "name": "Line",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 150,
+        "y": 520,
+        "scale": 1,
+        "rotation": 45
+      },
+      "shape": "line",
+      "width": 200,
+      "height": 6,
+      "fill": {
+        "enabled": true,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": true,
+        "color": "#000000FF",
+        "width": 6,
+        "join": "round"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "shape-arrow",
+      "type": "shape",
+      "name": "Arrow both",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 450,
+        "y": 520,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "arrow",
+      "width": 260,
+      "height": 12,
+      "fill": {
+        "enabled": true,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": true,
+        "color": "#E53935FF",
+        "width": 12,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "both"
+    },
+    {
+      "id": "shape-hidden",
+      "type": "shape",
+      "name": "Hidden",
+      "visible": false,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 650,
+        "y": 520,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "ellipse",
+      "width": 80,
+      "height": 80,
+      "fill": {
+        "enabled": true,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": false,
+        "color": "#000000FF",
+        "width": 8,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "shape-locked",
+      "type": "shape",
+      "name": "Locked",
+      "visible": true,
+      "locked": true,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 400,
+        "y": 420,
+        "scale": 1.5,
+        "rotation": 0
+      },
+      "shape": "rect",
+      "width": 60,
+      "height": 40,
+      "fill": {
+        "enabled": true,
+        "color": "#FB8C0080"
+      },
+      "stroke": {
+        "enabled": false,
+        "color": "#000000FF",
+        "width": 8,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "t-hidden-locked",
+      "type": "text",
+      "name": "Hidden + locked text",
+      "visible": false,
+      "locked": true,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 400,
+        "y": 300,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "secret",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 64,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#000000FF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": []
+    }
+  ]
+}

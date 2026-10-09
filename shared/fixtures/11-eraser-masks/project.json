@@ -1,0 +1,190 @@
+{
+  "formatVersion": 1,
+  "id": "11-eraser-masks",
+  "name": "Eraser masks",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 800,
+    "height": 800,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "img-masked",
+      "type": "image",
+      "name": "Masked photo (cropped, rotated)",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 250,
+        "y": 250,
+        "scale": 8,
+        "rotation": 10
+      },
+      "assetRef": "6fe4aad40edba5d4736cec2dc86508a6910027e4004bc31ce0d2f80eabc79ada.png",
+      "naturalWidth": 64,
+      "naturalHeight": 48,
+      "crop": {
+        "x": 8,
+        "y": 0,
+        "width": 48,
+        "height": 40
+      },
+      "rotate90": 1,
+      "flipH": false,
+      "flipV": true,
+      "adjust": {
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "warmth": 0
+      },
+      "cornerRadius": 0,
+      "border": {
+        "enabled": false,
+        "width": 0,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "id": "shape-masked",
+      "type": "shape",
+      "name": "Masked ellipse",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 600,
+        "y": 250,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "ellipse",
+      "width": 200,
+      "height": 200,
+      "fill": {
+        "enabled": true,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": false,
+        "color": "#000000FF",
+        "width": 8,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "shape-bad-mask",
+      "type": "shape",
+      "name": "Corrupt mask file",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 600,
+        "y": 600,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "rect",
+      "width": 150,
+      "height": 150,
+      "fill": {
+        "enabled": true,
+        "color": "#43A047FF"
+      },
+      "stroke": {
+        "enabled": false,
+        "color": "#000000FF",
+        "width": 8,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "draw-plain",
+      "type": "drawing",
+      "name": "Drawing with stray mask",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 400,
+        "y": 400,
+        "scale": 1,
+        "rotation": 0
+      },
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "t-masked",
+      "type": "text",
+      "name": "Masked text",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 250,
+        "y": 600,
+        "scale": 1,
+        "rotation": 350
+      },
+      "text": "Erase me",
+      "fontId": "anton",
+      "weight": 400,
+      "fontSize": 90,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#FFFFFFFF"
+      },
+      "outline": {
+        "enabled": true,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.1,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": true,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": []
+    }
+  ]
+}

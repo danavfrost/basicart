@@ -1,0 +1,17 @@
+{
+  "selectedLayerIds": [
+    "t-styled"
+  ],
+  "activeTool": "text",
+  "textTab": "color",
+  "view": {
+    "zoom": 1.5,
+    "centerX": 540,
+    "centerY": 420
+  },
+  "textSelection": {
+    "layerId": "t-styled",
+    "start": 4,
+    "end": 8
+  }
+}

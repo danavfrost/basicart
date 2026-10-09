@@ -1,0 +1,75 @@
+{
+  "formatVersion": 1,
+  "id": "09-corrupt-duplicate-ids",
+  "name": "Duplicate ids",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 400,
+    "height": 400,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "dup",
+      "type": "shape",
+      "name": "A",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 100,
+        "y": 100,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "rect",
+      "width": 50,
+      "height": 50,
+      "fill": {
+        "enabled": true,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": false,
+        "color": "#000000FF",
+        "width": 8,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    },
+    {
+      "id": "dup",
+      "type": "shape",
+      "name": "B",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 300,
+        "y": 300,
+        "scale": 1,
+        "rotation": 0
+      },
+      "shape": "ellipse",
+      "width": 50,
+      "height": 50,
+      "fill": {
+        "enabled": true,
+        "color": "#3478F6FF"
+      },
+      "stroke": {
+        "enabled": false,
+        "color": "#000000FF",
+        "width": 8,
+        "join": "miter"
+      },
+      "cornerRadius": 24,
+      "arrowHeads": "end"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "formatVersion": 1,
+  "id": "03-rich-text-spans",
+  "name": "Rich text spans",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#FFFFFFFF"
+  },
+  "layers": [
+    {
+      "id": "t-mixed",
+      "type": "text",
+      "name": "Mixed spans",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 300,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "Hello brave new world 👋🏽 done",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 64,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#000000FF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": [
+        {
+          "start": 6,
+          "end": 11,
+          "bold": true
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "italic": true,
+          "underline": true
+        },
+        {
+          "start": 16,
+          "end": 21,
+          "strike": true
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": "t-italic-layer",
+      "type": "text",
+      "name": "Italic layer with upright span",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 540,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "Italic except THIS part",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 56,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#000000FF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": [
+        {
+          "start": 14,
+          "end": 23,
+          "italic": false,
+          "bold": true
+        }
+      ]
+    },
+    {
+      "id": "t-weight",
+      "type": "text",
+      "name": "Weight 900 + B, span un-bolded",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 780,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "Black weight, B toggled",
+      "fontId": "inter",
+      "weight": 900,
+      "fontSize": 72,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#000000FF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": [
+        {
+          "start": 0,
+          "end": 12,
+          "bold": false
+        }
+      ]
+    }
+  ]
+}

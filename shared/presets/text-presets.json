@@ -1,0 +1,156 @@
+{
+  "formatVersion": 1,
+  "presets": [
+    {
+      "id": "classic-meme",
+      "name": "Classic Meme",
+      "props": {
+        "fontId": "anton",
+        "textCase": "upper",
+        "align": "center",
+        "lineHeight": 1.05,
+        "fill": {
+          "type": "solid",
+          "color": "#FFFFFFFF"
+        },
+        "outline": {
+          "enabled": true,
+          "style": "solid",
+          "color": "#000000FF",
+          "width": 0.13,
+          "color2": "#FFFFFFFF",
+          "width2": 0.06,
+          "glowRadius": 0.3,
+          "join": "round"
+        }
+      }
+    },
+    {
+      "id": "caption-bar",
+      "name": "Caption bar",
+      "props": {
+        "fontId": "inter",
+        "weight": 600,
+        "align": "center",
+        "fill": {
+          "type": "solid",
+          "color": "#FFFFFFFF"
+        },
+        "backgroundBox": {
+          "enabled": true,
+          "color": "#000000A6",
+          "padding": 0.35,
+          "cornerRadius": 0.12
+        }
+      }
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "props": {
+        "fontId": "bebas-neue",
+        "align": "center",
+        "letterSpacing": 0.04,
+        "fill": {
+          "type": "solid",
+          "color": "#FFE6FBFF"
+        },
+        "outline": {
+          "enabled": true,
+          "style": "glow",
+          "color": "#FF10F0FF",
+          "width": 0.03,
+          "color2": "#FFFFFFFF",
+          "width2": 0.06,
+          "glowRadius": 0.35,
+          "join": "round"
+        }
+      }
+    },
+    {
+      "id": "sticker",
+      "name": "Sticker",
+      "props": {
+        "fontId": "permanent-marker",
+        "align": "center",
+        "fill": {
+          "type": "solid",
+          "color": "#FF3B30FF"
+        },
+        "outline": {
+          "enabled": true,
+          "style": "solid",
+          "color": "#FFFFFFFF",
+          "width": 0.12,
+          "color2": "#FFFFFFFF",
+          "width2": 0.06,
+          "glowRadius": 0.3,
+          "join": "round"
+        },
+        "shadow": {
+          "enabled": true,
+          "color": "#00000073",
+          "blur": 0.12,
+          "offsetX": 0.04,
+          "offsetY": 0.06
+        }
+      }
+    },
+    {
+      "id": "retro",
+      "name": "Retro",
+      "props": {
+        "fontId": "bungee",
+        "align": "center",
+        "fill": {
+          "type": "linear",
+          "angle": 90,
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#FFD23FFF"
+            },
+            {
+              "offset": 0.5,
+              "color": "#FF7B54FF"
+            },
+            {
+              "offset": 1,
+              "color": "#E0368CFF"
+            }
+          ]
+        },
+        "outline": {
+          "enabled": true,
+          "style": "solid",
+          "color": "#2B1055FF",
+          "width": 0.05,
+          "color2": "#FFFFFFFF",
+          "width2": 0.06,
+          "glowRadius": 0.3,
+          "join": "miter"
+        },
+        "shadow": {
+          "enabled": true,
+          "color": "#2B1055FF",
+          "blur": 0,
+          "offsetX": 0.08,
+          "offsetY": 0.08
+        }
+      }
+    },
+    {
+      "id": "handwritten-note",
+      "name": "Handwritten note",
+      "props": {
+        "fontId": "caveat",
+        "align": "left",
+        "lineHeight": 1.15,
+        "fill": {
+          "type": "solid",
+          "color": "#1F2A44FF"
+        }
+      }
+    }
+  ]
+}

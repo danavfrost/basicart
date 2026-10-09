@@ -1,0 +1,18 @@
+{
+  "formatVersion": 1,
+  "layerId": "draw-plain",
+  "strokes": [
+    {
+      "brush": "pen",
+      "size": 10,
+      "color": "#1E88E5FF",
+      "opacity": 1,
+      "points": [
+        20,
+        20,
+        380,
+        380
+      ]
+    }
+  ]
+}

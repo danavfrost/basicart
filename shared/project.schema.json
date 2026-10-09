@@ -1,0 +1,1185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://basicart.local/project.schema.json",
+  "title": "Basic Art project.json (formatVersion 1)",
+  "description": "Structural schema for project.json. Semantic rules (unique ids, crop bounds, span grapheme boundaries, asset hashes, ...) live in shared/FORMAT.md and shared/tools/validate_fixtures.py. $defs also covers strokes/<id>.json, strokes/<id>.mask.json (maskFile), fonts.json, palettes.json and text-presets.json, editor-state.json (editorState) and basicart-package.json (packageManifest).",
+  "type": "object",
+  "properties": {
+    "formatVersion": {
+      "const": 1
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "created": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "modified": {
+      "$ref": "#/$defs/timestamp"
+    },
+    "generator": {
+      "type": "string"
+    },
+    "canvas": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 16,
+          "maximum": 8192
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 16,
+          "maximum": 8192
+        },
+        "background": {
+          "$ref": "#/$defs/color"
+        }
+      },
+      "required": [
+        "width",
+        "height"
+      ]
+    },
+    "layers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/layer"
+      }
+    }
+  },
+  "required": [
+    "formatVersion",
+    "id",
+    "canvas",
+    "layers"
+  ],
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{1,64}$"
+    },
+    "color": {
+      "type": "string",
+      "pattern": "^#([0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$"
+    },
+    "timestamp": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z$"
+    },
+    "transform": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "scale": {
+          "type": "number",
+          "minimum": 0.01,
+          "maximum": 100
+        },
+        "rotation": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "scale",
+        "rotation"
+      ]
+    },
+    "fill": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "solid"
+            },
+            "color": {
+              "$ref": "#/$defs/color"
+            }
+          },
+          "required": [
+            "type",
+            "color"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "linear"
+            },
+            "angle": {
+              "type": "number"
+            },
+            "stops": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 3,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "offset": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "color": {
+                    "$ref": "#/$defs/color"
+                  }
+                },
+                "required": [
+                  "offset",
+                  "color"
+                ]
+              }
+            }
+          },
+          "required": [
+            "type",
+            "angle",
+            "stops"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "radial"
+            },
+            "stops": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 3,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "offset": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "color": {
+                    "$ref": "#/$defs/color"
+                  }
+                },
+                "required": [
+                  "offset",
+                  "color"
+                ]
+              }
+            }
+          },
+          "required": [
+            "type",
+            "stops"
+          ]
+        }
+      ]
+    },
+    "outline": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "style": {
+          "enum": [
+            "solid",
+            "double",
+            "glow"
+          ]
+        },
+        "color": {
+          "$ref": "#/$defs/color"
+        },
+        "width": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 0.5
+        },
+        "color2": {
+          "$ref": "#/$defs/color"
+        },
+        "width2": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 0.5
+        },
+        "glowRadius": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "join": {
+          "enum": [
+            "round",
+            "miter"
+          ]
+        }
+      },
+      "required": [
+        "enabled"
+      ]
+    },
+    "shadow": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "color": {
+          "$ref": "#/$defs/color"
+        },
+        "blur": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "offsetX": {
+          "type": "number",
+          "minimum": -2,
+          "maximum": 2
+        },
+        "offsetY": {
+          "type": "number",
+          "minimum": -2,
+          "maximum": 2
+        }
+      },
+      "required": [
+        "enabled"
+      ]
+    },
+    "backgroundBox": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "color": {
+          "$ref": "#/$defs/color"
+        },
+        "padding": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "cornerRadius": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "enabled"
+      ]
+    },
+    "span": {
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "bold": {
+          "type": "boolean"
+        },
+        "italic": {
+          "type": "boolean"
+        },
+        "underline": {
+          "type": "boolean"
+        },
+        "strike": {
+          "type": "boolean"
+        },
+        "color": {
+          "$ref": "#/$defs/color"
+        },
+        "fontId": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "weight": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 900
+        },
+        "size": {
+          "type": "number",
+          "minimum": 4,
+          "maximum": 2000
+        }
+      }
+    },
+    "textProps": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "fontId": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "weight": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 900
+        },
+        "fontSize": {
+          "type": "number",
+          "minimum": 4,
+          "maximum": 2000
+        },
+        "bold": {
+          "type": "boolean"
+        },
+        "italic": {
+          "type": "boolean"
+        },
+        "underline": {
+          "type": "boolean"
+        },
+        "strike": {
+          "type": "boolean"
+        },
+        "align": {
+          "enum": [
+            "left",
+            "center",
+            "right",
+            "justify"
+          ]
+        },
+        "letterSpacing": {
+          "type": "number",
+          "minimum": -0.5,
+          "maximum": 2
+        },
+        "lineHeight": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 4
+        },
+        "textCase": {
+          "enum": [
+            "none",
+            "upper",
+            "lower",
+            "title"
+          ]
+        },
+        "autoWidth": {
+          "type": "boolean"
+        },
+        "boxWidth": {
+          "type": "number",
+          "minimum": 0
+        },
+        "fill": {
+          "$ref": "#/$defs/fill"
+        },
+        "outline": {
+          "$ref": "#/$defs/outline"
+        },
+        "shadow": {
+          "$ref": "#/$defs/shadow"
+        },
+        "backgroundBox": {
+          "$ref": "#/$defs/backgroundBox"
+        },
+        "curve": {
+          "type": "number",
+          "minimum": -100,
+          "maximum": 100
+        },
+        "skew": {
+          "type": "number",
+          "minimum": -45,
+          "maximum": 45
+        },
+        "spans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/span"
+          }
+        }
+      }
+    },
+    "imageLayer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "locked": {
+          "type": "boolean"
+        },
+        "opacity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "blendMode": {
+          "type": "string"
+        },
+        "transform": {
+          "$ref": "#/$defs/transform"
+        },
+        "type": {
+          "const": "image"
+        },
+        "assetRef": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}\\.(png|jpg|webp|gif|heic)$"
+        },
+        "naturalWidth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "naturalHeight": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "crop": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number",
+              "minimum": 0
+            },
+            "y": {
+              "type": "number",
+              "minimum": 0
+            },
+            "width": {
+              "type": "number",
+              "minimum": 1
+            },
+            "height": {
+              "type": "number",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "width",
+            "height"
+          ]
+        },
+        "rotate90": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "flipH": {
+          "type": "boolean"
+        },
+        "flipV": {
+          "type": "boolean"
+        },
+        "adjust": {
+          "type": "object",
+          "properties": {
+            "brightness": {
+              "type": "number",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "contrast": {
+              "type": "number",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "saturation": {
+              "type": "number",
+              "minimum": -100,
+              "maximum": 100
+            },
+            "warmth": {
+              "type": "number",
+              "minimum": -100,
+              "maximum": 100
+            }
+          }
+        },
+        "cornerRadius": {
+          "type": "number",
+          "minimum": 0
+        },
+        "border": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "width": {
+              "type": "number",
+              "minimum": 0
+            },
+            "color": {
+              "$ref": "#/$defs/color"
+            }
+          },
+          "required": [
+            "enabled"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "transform",
+        "assetRef",
+        "naturalWidth",
+        "naturalHeight"
+      ]
+    },
+    "textLayer": {
+      "allOf": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "$ref": "#/$defs/id"
+            },
+            "name": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "visible": {
+              "type": "boolean"
+            },
+            "locked": {
+              "type": "boolean"
+            },
+            "opacity": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "blendMode": {
+              "type": "string"
+            },
+            "transform": {
+              "$ref": "#/$defs/transform"
+            },
+            "type": {
+              "const": "text"
+            }
+          },
+          "required": [
+            "id",
+            "type",
+            "transform",
+            "text"
+          ]
+        },
+        {
+          "$ref": "#/$defs/textProps"
+        }
+      ]
+    },
+    "drawingLayer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "locked": {
+          "type": "boolean"
+        },
+        "opacity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "blendMode": {
+          "type": "string"
+        },
+        "transform": {
+          "$ref": "#/$defs/transform"
+        },
+        "type": {
+          "const": "drawing"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8192
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8192
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "transform",
+        "width",
+        "height"
+      ]
+    },
+    "shapeLayer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 100
+        },
+        "visible": {
+          "type": "boolean"
+        },
+        "locked": {
+          "type": "boolean"
+        },
+        "opacity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "blendMode": {
+          "type": "string"
+        },
+        "transform": {
+          "$ref": "#/$defs/transform"
+        },
+        "type": {
+          "const": "shape"
+        },
+        "shape": {
+          "enum": [
+            "rect",
+            "roundRect",
+            "ellipse",
+            "line",
+            "arrow"
+          ]
+        },
+        "width": {
+          "type": "number",
+          "minimum": 1
+        },
+        "height": {
+          "type": "number",
+          "minimum": 1
+        },
+        "fill": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "color": {
+              "$ref": "#/$defs/color"
+            }
+          },
+          "required": [
+            "enabled",
+            "color"
+          ]
+        },
+        "stroke": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "color": {
+              "$ref": "#/$defs/color"
+            },
+            "width": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 500
+            },
+            "join": {
+              "enum": [
+                "round",
+                "miter"
+              ]
+            }
+          },
+          "required": [
+            "enabled",
+            "color",
+            "width"
+          ]
+        },
+        "cornerRadius": {
+          "type": "number",
+          "minimum": 0
+        },
+        "arrowHeads": {
+          "enum": [
+            "end",
+            "start",
+            "both"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "transform",
+        "shape",
+        "width",
+        "height"
+      ]
+    },
+    "layer": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/imageLayer"
+        },
+        {
+          "$ref": "#/$defs/textLayer"
+        },
+        {
+          "$ref": "#/$defs/drawingLayer"
+        },
+        {
+          "$ref": "#/$defs/shapeLayer"
+        }
+      ]
+    },
+    "stroke": {
+      "type": "object",
+      "properties": {
+        "brush": {
+          "enum": [
+            "pen",
+            "marker",
+            "highlighter",
+            "airbrush",
+            "calligraphy",
+            "pencil",
+            "eraser"
+          ]
+        },
+        "size": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 200
+        },
+        "color": {
+          "$ref": "#/$defs/color"
+        },
+        "opacity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "points": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "number"
+          }
+        },
+        "pressure": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      },
+      "required": [
+        "brush",
+        "points"
+      ]
+    },
+    "strokesFile": {
+      "type": "object",
+      "properties": {
+        "formatVersion": {
+          "const": 1
+        },
+        "layerId": {
+          "$ref": "#/$defs/id"
+        },
+        "strokes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/stroke"
+          }
+        }
+      },
+      "required": [
+        "formatVersion",
+        "layerId",
+        "strokes"
+      ]
+    },
+    "fontsFile": {
+      "type": "object",
+      "properties": {
+        "formatVersion": {
+          "const": 1
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "name": {
+                "type": "string"
+              },
+              "sampleFontId": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "sampleFontId"
+            ]
+          }
+        },
+        "fonts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "family": {
+                "type": "string"
+              },
+              "category": {
+                "enum": [
+                  "sans",
+                  "serif",
+                  "display",
+                  "handwriting",
+                  "mono",
+                  "fun"
+                ]
+              },
+              "group": {
+                "type": "string"
+              },
+              "files": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "weight": {
+                      "type": "integer",
+                      "minimum": 100,
+                      "maximum": 900
+                    },
+                    "italic": {
+                      "type": "boolean"
+                    },
+                    "styleName": {
+                      "type": "string"
+                    },
+                    "path": {
+                      "type": "string",
+                      "pattern": "\\.(ttf|otf|TTF|OTF)$"
+                    }
+                  },
+                  "required": [
+                    "weight",
+                    "italic",
+                    "styleName",
+                    "path"
+                  ]
+                }
+              },
+              "license": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "file": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "file"
+                ]
+              },
+              "copyright": {
+                "type": "string"
+              },
+              "author": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "family",
+              "category",
+              "group",
+              "files",
+              "license",
+              "copyright",
+              "author"
+            ]
+          }
+        }
+      },
+      "required": [
+        "formatVersion",
+        "groups",
+        "fonts"
+      ]
+    },
+    "palettesFile": {
+      "type": "object",
+      "properties": {
+        "formatVersion": {
+          "const": 1
+        },
+        "palettes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "name": {
+                "type": "string"
+              },
+              "colors": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "$ref": "#/$defs/color"
+                }
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "colors"
+            ]
+          }
+        }
+      },
+      "required": [
+        "formatVersion",
+        "palettes"
+      ]
+    },
+    "presetsFile": {
+      "type": "object",
+      "properties": {
+        "formatVersion": {
+          "const": 1
+        },
+        "presets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9-]+$"
+              },
+              "name": {
+                "type": "string"
+              },
+              "props": {
+                "$ref": "#/$defs/textProps"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "props"
+            ]
+          }
+        }
+      },
+      "required": [
+        "formatVersion",
+        "presets"
+      ]
+    },
+    "maskFile": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/strokesFile"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "strokes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "brush": {
+                    "const": "eraser"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "editorState": {
+      "type": "object",
+      "description": "editor-state.json (FORMAT.md \u00a710.7). All optional; readers ignore invalid values field by field.",
+      "properties": {
+        "selectedLayerIds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "activeTool": {
+          "enum": [
+            "select",
+            "text",
+            "image",
+            "draw",
+            "shapes",
+            "adjust",
+            "canvas"
+          ]
+        },
+        "textTab": {
+          "enum": [
+            "font",
+            "style",
+            "color",
+            "outline",
+            "shadow",
+            "effects"
+          ]
+        },
+        "view": {
+          "type": "object",
+          "properties": {
+            "zoom": {
+              "type": "number",
+              "minimum": 0.1,
+              "maximum": 32
+            },
+            "centerX": {
+              "type": "number"
+            },
+            "centerY": {
+              "type": "number"
+            }
+          }
+        },
+        "textSelection": {
+          "type": "object",
+          "required": [
+            "layerId",
+            "start",
+            "end"
+          ],
+          "properties": {
+            "layerId": {
+              "$ref": "#/$defs/id"
+            },
+            "start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "packageManifest": {
+      "type": "object",
+      "description": "basicart-package.json (FORMAT.md \u00a713.1)",
+      "required": [
+        "package",
+        "packageVersion",
+        "formatVersion"
+      ],
+      "properties": {
+        "package": {
+          "const": "basicart-project"
+        },
+        "packageVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "formatVersion": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "appPlatform": {
+          "enum": [
+            "android",
+            "ios"
+          ]
+        },
+        "appVersion": {
+          "type": "string"
+        },
+        "exported": {
+          "$ref": "#/$defs/timestamp"
+        }
+      }
+    }
+  }
+}

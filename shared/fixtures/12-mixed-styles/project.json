@@ -1,0 +1,183 @@
+{
+  "formatVersion": 1,
+  "id": "12-mixed-styles",
+  "name": "Mixed styles",
+  "created": "2026-10-08T12:00:00Z",
+  "modified": "2026-10-08T12:30:00Z",
+  "generator": "Basic Art fixture generator",
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#1E1E2EFF"
+  },
+  "layers": [
+    {
+      "id": "t-styled",
+      "type": "text",
+      "name": "Mixed styles, curved",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 420,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "Big SALE today 🎉 only!\nsmall print",
+      "fontId": "inter",
+      "weight": 400,
+      "fontSize": 60,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "linear",
+        "angle": 0,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#0FF0FCFF"
+          },
+          {
+            "offset": 1,
+            "color": "#BC13FEFF"
+          }
+        ]
+      },
+      "outline": {
+        "enabled": true,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": true,
+        "color": "#00000099",
+        "blur": 0.1,
+        "offsetX": 0.04,
+        "offsetY": 0.06
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 35,
+      "skew": 0,
+      "spans": [
+        {
+          "start": 0,
+          "end": 3,
+          "fontId": "anton",
+          "size": 110,
+          "color": "#FFD23FFF"
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "fontId": "anton",
+          "size": 110,
+          "color": "#E53935FF",
+          "underline": true
+        },
+        {
+          "start": 9,
+          "end": 14,
+          "color": "#FFFFFFFF"
+        },
+        {
+          "start": 15,
+          "end": 17,
+          "size": 90
+        },
+        {
+          "start": 24,
+          "end": 35,
+          "fontId": "caveat",
+          "size": 32,
+          "italic": true
+        }
+      ]
+    },
+    {
+      "id": "t-solid",
+      "type": "text",
+      "name": "Solid fill + colored word, straight",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "transform": {
+        "x": 540,
+        "y": 850,
+        "scale": 1,
+        "rotation": 0
+      },
+      "text": "plain RED plain",
+      "fontId": "inter",
+      "weight": 700,
+      "fontSize": 72,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strike": false,
+      "align": "center",
+      "letterSpacing": 0,
+      "lineHeight": 1.2,
+      "textCase": "none",
+      "autoWidth": true,
+      "boxWidth": 0,
+      "fill": {
+        "type": "solid",
+        "color": "#FFFFFFFF"
+      },
+      "outline": {
+        "enabled": false,
+        "style": "solid",
+        "color": "#000000FF",
+        "width": 0.06,
+        "color2": "#FFFFFFFF",
+        "width2": 0.06,
+        "glowRadius": 0.3,
+        "join": "round"
+      },
+      "shadow": {
+        "enabled": false,
+        "color": "#00000080",
+        "blur": 0.1,
+        "offsetX": 0.05,
+        "offsetY": 0.05
+      },
+      "backgroundBox": {
+        "enabled": false,
+        "color": "#00000099",
+        "padding": 0.25,
+        "cornerRadius": 0.15
+      },
+      "curve": 0,
+      "skew": 0,
+      "spans": [
+        {
+          "start": 6,
+          "end": 9,
+          "color": "#E53935FF",
+          "weight": 900
+        }
+      ]
+    }
+  ]
+}
