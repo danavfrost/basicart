@@ -39,7 +39,7 @@ Both require Android 8.0 or newer. The iOS app requires iOS 16 or newer.
 The APKs on GitHub and the Google Play version are **signed with different keys**, so Android treats them as different installs of the same app:
 
 - **You can't update one with the other.** If you installed an APK from GitHub and later want the Play Store version (or the other way round), Android will refuse to install it over the top. You have to **uninstall the old one first**.
-- **Current GitHub APKs are preview builds signed with a development key.** A later GitHub release signed with the permanent release key also won't install over them. Uninstall the preview first.
+- **The current GitHub APKs (1.0.0) are signed with a development key.** A later GitHub release signed with the permanent release key won't install over them, so you'll need to uninstall 1.0.0 first.
 - **Uninstalling deletes your projects.** Basic Art keeps projects only inside the app, so removing it removes them. Exported images in your Pictures folder are not affected.
 - **Save your projects before you uninstall.** On the home screen, tap a project's **⋮ → Export project file** and save the `.zip` somewhere safe, such as Downloads. After installing the new version, tap **Import** and pick that file. Your layers, text and selections come back exactly as they were.
 - The Play Store version updates itself automatically. GitHub APKs never update automatically; check the [Releases](https://github.com/danavfrost/basicart/releases) page for new ones.
